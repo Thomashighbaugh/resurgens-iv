@@ -45,7 +45,7 @@ class Skills extends Component{
                         />
                         <Skill
                             title='Language'
-                            cardImage='https://duckduckgo.com/i/b34d8a01.png'
+                            cardImage='//proxy.duckduckgo.com/iu/?u=https%3A%2F%2Flinuxhandbook.com%2Fwp-content%2Fuploads%2Fbash-shell-logo.jpg&f=1'
                         />
                     </Grid>
                 </List>
