@@ -29,7 +29,7 @@ const styles = (theme) => ({
         marginBottom:'1em'
     },
     dialogTitle:{
-        display:'fixed',
+        display:'flex',
         alignItems:'center',
     },
     dialogContent:{
@@ -51,6 +51,9 @@ const styles = (theme) => ({
         [theme.breakpoints.down('xs')]:{
             display:'none'
         }
+    },
+    hr:{
+        marginBottom: '40%'
     }
 });
 
