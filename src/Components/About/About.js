@@ -32,6 +32,7 @@ const styles = (theme) => ({
         height:'90vh',
         display:'flex',
         flexDirection:'column',
+        backgroundColor:'#293036',
         justifyContent:'space-around',
         [theme.breakpoints.down('sm')]:{
             height:'auto',
