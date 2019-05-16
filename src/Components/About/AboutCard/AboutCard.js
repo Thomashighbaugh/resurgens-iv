@@ -12,6 +12,7 @@ const styles =(theme) => ({
     card:{
         maxWidth:350,
         padding:10,
+        marginTop:10,
         
     },
     cardMedia:{

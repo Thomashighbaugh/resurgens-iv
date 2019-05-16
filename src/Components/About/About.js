@@ -20,10 +20,11 @@ const styles = (theme) => ({
         
     },
     cardAndImage:{
-        marginTop:'1em',
+        marginTop:'3em',
         display:'flex',
         justifyContent:'space-around',
-        alignItems:'center'
+        alignItems:'center',
+        backgroundColor:'#293036'
     },
     encompassingDiv:{
         
