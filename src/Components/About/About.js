@@ -63,10 +63,9 @@ class About extends Component{
                     <div className={classes.cardAndImage}>
                         <img src={image} className={classes.img}  alt=''/>
                         <AboutCard image={image}/> 
-                    </div>
-                    <Divider />
-                    <ActionButtons />
 
+                    <ActionButtons />
+                    </div>
 
                 </Paper>
             </Slide>
