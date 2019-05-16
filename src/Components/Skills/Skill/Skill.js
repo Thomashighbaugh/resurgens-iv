@@ -78,7 +78,7 @@ class Skill extends Component{
             <div>
                 <ListItem className={classes.listItem} button divider onClick={()=>this.toggleDialog()}>
                    <ListItemText
-                        primaryTypographyProps={{component:'h5', variant:'h5'}}
+                        primaryTypographyProps={{component:'h4', variant:'h4'}}
                     >
                         {title}
                     </ListItemText>
