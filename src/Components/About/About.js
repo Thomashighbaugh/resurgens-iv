@@ -46,7 +46,7 @@ class About extends Component{
     constructor(props){
         super(props);
         this.state={
-            image:'./public/profile-pic.png'
+            image:'https://resurgens-iii.netlify.com/images/drapeaunoir.png'
         }
     }
 

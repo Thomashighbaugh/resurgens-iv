@@ -43,6 +43,10 @@ class Skills extends Component{
                             title='Language'
                             cardImage='https://duckduckgo.com/i/270e21a9.png'
                         />
+                        <Skill
+                            title='Language'
+                            cardImage='https://duckduckgo.com/i/b34d8a01.png'
+                        />
                     </Grid>
                 </List>
             </Slide>
