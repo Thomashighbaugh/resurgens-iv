@@ -25,10 +25,11 @@ const styles = (theme) => ({
     cardImage:{
         width:'100%',
         marginLeft:'auto',
-        marginRight:'auto'
+        marginRight:'auto',
+        marginBottom:'1em'
     },
     dialogTitle:{
-        display:'flex',
+        display:'fixed',
         alignItems:'center',
     },
     dialogContent:{
