@@ -9,6 +9,7 @@ import {withStyles} from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 
 import Slide from '@material-ui/core/Slide'
+import {Divider} from "@material-ui/core";
 
 
 const styles = (theme) => ({
@@ -27,7 +28,7 @@ const styles = (theme) => ({
         backgroundColor:'#293036'
     },
     encompassingDiv:{
-        
+        marginBottom:'3em',
         paddingTop:'1em',
         height:'90vh',
         display:'flex',
@@ -63,7 +64,7 @@ class About extends Component{
                         <img src={image} className={classes.img}  alt=''/>
                         <AboutCard image={image}/> 
                     </div>
-
+                    <Divider />
                     <ActionButtons />
 
 
