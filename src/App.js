@@ -59,7 +59,7 @@ class App extends Component {
               color="inherit"
               align="center"
             >
-              Resurgens IV
+              <span style='background-color:#293036'>Resurgens IV</span>
             </Typography>
             <Tabs
               value={tabValue}
