@@ -14,7 +14,7 @@ import {Divider} from "@material-ui/core";
 
 const styles = (theme) => ({
     img:{
-        maxWidth:600,
+        maxWidth:500,
         [theme.breakpoints.down('sm')]:{
             display:'none'
         }
@@ -28,9 +28,8 @@ const styles = (theme) => ({
         backgroundColor:'#293036'
     },
     encompassingDiv:{
-        marginBottom:'3em',
-        paddingTop:'1em',
-        height:'90vh',
+        padding:'1em',
+        height:'100vh',
         display:'flex',
         flexDirection:'column',
         backgroundColor:'#293036',
