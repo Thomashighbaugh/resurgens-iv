@@ -15,7 +15,7 @@ class Skills extends Component{
 
     render(){
         return(
-            <Slide direction='left' in={true}>
+            <Slide direction='right' in={true}>
                 <List>
                     <Grid container justify='center'>
                         <Skill

@@ -14,6 +14,7 @@ const styles = () => ({
         width:75,
         height:75,
         borderRadius:'50%',
+
     }
 });
 
