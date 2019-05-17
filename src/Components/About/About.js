@@ -39,6 +39,9 @@ const styles = (theme) => ({
             height:'auto',
             display:'inline',
             
+        },
+        body:{
+            backgroundColor:'#293036'
         }
         
     }
@@ -64,8 +67,8 @@ class About extends Component{
                         <img src={image} className={classes.img}  alt=''/>
                         <AboutCard image={image}/> 
 
-                    <ActionButtons />
                     </div>
+                    <ActionButtons />
 
                 </Paper>
             </Slide>

@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 import Project from "./Project/Project";
-
 //@material-ui/core
 import Grid from "@material-ui/core/Grid";
-
 import List from "@material-ui/core/List";
 import Slide from "@material-ui/core/Slide";
 
