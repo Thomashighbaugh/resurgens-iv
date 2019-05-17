@@ -54,12 +54,12 @@ class App extends Component {
         <div>
           <AppBar position="static">
             <Typography
-              component="h4"
+              component="h2"
               variant="h3"
               color="inherit"
               align="center"
             >
-              Thomas Leon Highbaugh
+              Resurgens IV
             </Typography>
             <Tabs
               value={tabValue}
