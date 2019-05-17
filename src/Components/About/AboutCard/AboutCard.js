@@ -11,16 +11,14 @@ import CardContent from '@material-ui/core/CardContent';
 const styles =(theme) => ({
     card:{
         maxWidth:350,
-        padding:10,
-        marginTop:20,
-        
+        padding:20,
     },
     cardMedia:{
         display:'none',
         [theme.breakpoints.down('sm')]: {
             display:'inline'
         },
-        
+
     }
 })
 
@@ -30,7 +28,7 @@ class AboutCard extends Component{
 
         return(
             <Card className={classes.card}>
-                <CardHeader title='Thomas Leon Highbaugh' titleTypographyProps={{component:'h5', variant:'h5', align:'center'}} />
+                <CardHeader title='Thomas Leon Highbaugh' titleTypographyProps={{component:'h4', variant:'h4', align:'center'}} />
                 <CardMedia 
                     className={classes.cardMedia}
                     image={image} 
