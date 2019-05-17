@@ -36,6 +36,22 @@ class Skills extends Component{
                             cardImage='https://ih1.redbubble.net/image.109336634.1604/flat,550x550,075,f.u1.jpg'
                         />
                         <Skill
+                            title='React'
+                            cardImage='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png'
+                        />
+                        <Skill
+                            title='Redux'
+                            cardImage='https://cdn-images-1.medium.com/max/1200/0*U2DmhXYumRyXH6X1.png'
+                        />
+                        <Skill
+                            title='Python 2&3'
+                            cardImage='https://www.python.org/static/opengraph-icon-200x200.png'
+                        />
+                        <Skill
+                            title='PHP 7'
+                            cardImage='https://owncloud.org/wp-content/uploads/2015/07/php7-transparent.png'
+                        />
+                        <Skill
                             title='MYSQL'
                             cardImage='https://uploads.toptal.io/blog/category/logo/60/sql.png'
                         />
@@ -44,8 +60,16 @@ class Skills extends Component{
                             cardImage='https://duckduckgo.com/i/270e21a9.png'
                         />
                         <Skill
+                            title='Redis'
+                            cardImage='https://redislabs.com/wp-content/themes/redislabs/assets/images/redis-logo-stack.png'
+                        />
+                        <Skill
                             title='BASH Shell Scripting'
                             cardImage='https://raw.githubusercontent.com/odb/official-bash-logo/master/assets/Logos/Icons/PNG/512x512.png'
+                        />
+                        <Skill
+                            title='Linux'
+                            cardImage='https://cdn.pixabay.com/photo/2013/07/13/11/43/tux-158547_960_720.png'
                         />
                     </Grid>
                 </List>

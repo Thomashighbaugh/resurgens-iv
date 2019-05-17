@@ -27,6 +27,7 @@ const styles = (theme) => ({
         alignItems:'center',
         backgroundColor:'#B6B6B6',
         padding:'3em',
+        borderRadius:'10%'
     },
     encompassingDiv:{
         padding:'1em',
