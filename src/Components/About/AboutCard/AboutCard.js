@@ -11,6 +11,7 @@ import CardContent from "@material-ui/core/CardContent";
 const styles = theme => ({
   card: {
     maxWidth: 350,
+
     padding: 20
   },
   cardMedia: {

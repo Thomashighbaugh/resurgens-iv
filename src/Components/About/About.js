@@ -27,7 +27,9 @@ const styles = (theme) => ({
         alignItems:'center',
         backgroundColor:'#B6B6B6',
         padding:'3em',
-        borderRadius:'10%'
+        borderRadius:'10%',
+        marginLeft:'10%',
+        marginRight:'10%'
     },
     encompassingDiv:{
         padding:'1em',
@@ -39,6 +41,7 @@ const styles = (theme) => ({
         [theme.breakpoints.down('sm')]:{
             height:'auto',
             display:'inline',
+
             
         },
         body:{
