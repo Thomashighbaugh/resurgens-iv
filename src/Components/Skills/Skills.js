@@ -1,4 +1,4 @@
-import React,{Component} from 'react';
+import React, { Component } from "react";
 import Skill from './Skill/Skill';
 
 //@material-ui/core

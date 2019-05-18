@@ -94,7 +94,11 @@ class Skill extends Component {
 
             <DialogContent className={classes.dialogContent}>
               <div>
-                <img className={classes.cardImage} src={cardImage} alt={title} />
+                <img
+                  className={classes.cardImage}
+                  src={cardImage}
+                  alt={title}
+                />
                 <Typography component="h5" variant="h5">
                   {title}
                 </Typography>
