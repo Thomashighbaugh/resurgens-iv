@@ -41,12 +41,13 @@ const styles = theme => ({
   },
   dialogTitle: {
     display: "flex",
-    alignItems: "center"
+    alignItems: "center",
   },
   dialogContent: {
     display: "flex",
     flexDirection: "column",
-    justifyContent: "space-around"
+    justifyContent: "space-around",
+
   },
   closeIcon: {
     width: 32,
@@ -61,7 +62,9 @@ const styles = theme => ({
     maxWidth: 300,
     padding: 10,
     margin: 16,
-    height: "100%"
+    height: "100%",
+    backgroundColor:'#b6b6b6',
+
   },
   gridItem: {
     [theme.breakpoints.down("xs")]: {
@@ -141,7 +144,7 @@ class Project extends Component {
                   href={githubLink}
                   target="blank"
                 >
-                  View GitHub Repository
+                  GitHub Repository
                 </Button>
                 <Button
                   fullWidth
@@ -151,7 +154,7 @@ class Project extends Component {
                   target="blank"
                   disabled={!isHosted}
                 >
-                  View Hosted Example
+                  Hosted Example
                 </Button>
               </div>
             </DialogContent>

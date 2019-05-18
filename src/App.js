@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import About from "./Components/About/About";
 import Projects from "./Components/Projects/Projects";
 import Skills from "./Components/Skills/Skills";
+import Footer from "./Components/Footer/Footer";
 
 //@material-ui imports
 import {
@@ -32,7 +33,11 @@ const theme = createMuiTheme({
   }
 });
 
-const styles = theme => ({});
+const styles = theme => ({
+  appBar: {
+    height: '6.5em',
+  },
+});
 
 class App extends Component {
   constructor(props) {
@@ -52,10 +57,10 @@ class App extends Component {
     return (
       <MuiThemeProvider theme={theme}>
         <div>
-          <AppBar position="static">
+          <AppBar position="static" className={classes.appBar}>
             <Typography
               component="h2"
-              variant="h3"
+              variant="h2"
               color="inherit"
               align="center"
             >
@@ -75,6 +80,7 @@ class App extends Component {
           {tabValue === 0 && <About />}
           {tabValue === 1 && <Projects />}
           {tabValue === 2 && <Skills />}
+        <Footer/>
         </div>
       </MuiThemeProvider>
     );

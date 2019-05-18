@@ -11,7 +11,6 @@ import CardContent from "@material-ui/core/CardContent";
 const styles = theme => ({
   card: {
     maxWidth: 350,
-
     padding: 20
   },
   cardMedia: {
@@ -31,9 +30,9 @@ class AboutCard extends Component {
         <CardHeader
           title="Thomas Leon Highbaugh"
           titleTypographyProps={{
-            component: "h4",
-            variant: "h4",
-            align: "center"
+            component: "h5",
+            variant: "h5",
+            align: "right"
           }}
         />
         <CardMedia

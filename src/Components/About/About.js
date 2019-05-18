@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import AboutCard from "./AboutCard/AboutCard";
 import ActionButtons from "./ActionButtons/ActionButtons";
+import Footer from '../Footer/Footer';
 
 //@material-ui imports
 import { withStyles } from "@material-ui/core/styles";
@@ -23,26 +24,25 @@ const styles = theme => ({
     display: "flex",
     justifyContent: "space-around",
     alignItems: "center",
-    backgroundColor: "#B6B6B6",
+    backgroundColor: "#5b5b5b",
     padding: "3em",
     borderRadius: "10%",
     marginLeft: "10%",
-    marginRight: "10%"
+    marginRight: "10%",
+
   },
   encompassingDiv: {
     padding: "1em",
     height: "100vh",
     display: "flex",
     flexDirection: "column",
-    backgroundColor: "#293036",
+    backgroundColor: "#b6b6b6",
     justifyContent: "space-around",
     [theme.breakpoints.down("sm")]: {
       height: "auto",
       display: "inline"
     },
-    body: {
-      backgroundColor: "#293036"
-    }
+
   }
 });
 
