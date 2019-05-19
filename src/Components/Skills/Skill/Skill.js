@@ -25,6 +25,9 @@ const styles = theme => ({
     [theme.breakpoints.down("xs")]: {
       display: "flex",
       width: "100vw",
+      marginTop:"5em",
+      backgroundColor:"#000",
+      color:"#fff"
     }
   },
   cardImage: {
@@ -44,6 +47,7 @@ const styles = theme => ({
     flexDirection: "column",
     justifyContent: "space-around",
 
+
   },
   closeIcon: {
     width: 32,
@@ -55,8 +59,11 @@ const styles = theme => ({
     padding: 10,
     margin: 20,
     borderRadius: "25%",
-    backgroundColor:"#d5d5d5",
-
+backgroundColor:"#000",
+    [theme.breakpoints.down("xs")]: {
+      marginTop: "5em",
+      backgroundColor:"#000"
+    },
 
   },
   gridItem: {
@@ -135,7 +142,7 @@ class Skill extends Component {
               titleTypographyProps={{
                 component: "h5",
                 variant: "h5",
-                align: "center"
+                align: "center",
               }}
             />
           </Card>

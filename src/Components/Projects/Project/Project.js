@@ -32,9 +32,11 @@ const styles = theme => ({
     [theme.breakpoints.down("xs")]: {
       display: "flex",
       width: "100vw",
-      color:'#fff'
-
-    }
+      }
+  },
+  listItemText:{
+    backgroundColor: "#000",
+    color:"#fff"
   },
   cardImage: {
     width: "100%",
@@ -64,8 +66,8 @@ const styles = theme => ({
     padding: 10,
     margin: 16,
     height: "100%",
-    backgroundColor: "#d5d5d5",
-  },
+    backgroundColor: "#000",
+    color:"#fff"  },
   gridItem: {
     [theme.breakpoints.down("xs")]: {
       display: "none"
@@ -108,6 +110,7 @@ class Project extends Component {
           onClick={() => this.toggleDialog()}
         >
           <ListItemText
+              className={classes.listItemText}
             primaryTypographyProps={{ component: "h5", variant: "h5", color:'#fff' }}
             secondary={subtitle}
           >

@@ -24,7 +24,7 @@ class Skills extends Component{
                         />
                         <Skill
                             title='CSS3'
-                            cardImage='https://fthmb.tqn.com/zrcb1zA4Vi47uULJhJKJdcshBgk=/1024x1024/filters:fill(auto,1)/css3-57b597e85f9b58b5c2b338de.png'
+                            cardImage='https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fd%2Fd5%2FCSS3_logo_and_wordmark.svg%2F726px-CSS3_logo_and_wordmark.svg.png&f=1'
                         />
 
                         <Skill
@@ -33,7 +33,7 @@ class Skills extends Component{
                         />
                         <Skill
                             title='Node.JS'
-                            cardImage='https://ih1.redbubble.net/image.109336634.1604/flat,550x550,075,f.u1.jpg'
+                            cardImage='http://pluspng.com/img-png/nodejs-png-nodejs-icon-png-50-px-1600.png'
                         />
                         <Skill
                             title='React'
@@ -42,6 +42,10 @@ class Skills extends Component{
                         <Skill
                             title='Redux'
                             cardImage='https://cdn-images-1.medium.com/max/1200/0*U2DmhXYumRyXH6X1.png'
+                        />
+                        <Skill
+                            title='JSX'
+                            cardImage='https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.rickybruner.com%2Fimg%2Fresumelogos%2Fjsx.png&f=1'
                         />
                         <Skill
                             title='Python 2&3'
@@ -71,6 +75,7 @@ class Skills extends Component{
                             title='Linux'
                             cardImage='https://cdn.pixabay.com/photo/2013/07/13/11/43/tux-158547_960_720.png'
                         />
+
                     </Grid>
                 </List>
             </Slide>

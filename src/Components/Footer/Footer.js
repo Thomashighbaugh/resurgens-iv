@@ -30,7 +30,8 @@ const styles = theme => ({
 
   },
   footer: {
-    color: "#320575"
+    color: "#320575",
+
   },
   
 });
@@ -42,8 +43,8 @@ function Footer(props) {
     <MuiThemeProvider theme={theme}>
       <footer className={classes.footer}>
         <Paper className={classes.root} elevation={1}>
-              <Typography component="h4" variant="h4" color="inherit" justify="center">
-                <span>Another Electric Tantra Site by Thomas Leon Highbaugh 2019</span>
+              <Typography component="h6" variant="h6" color="inherit" align="center">
+                <span>Another Electric Tantra Site by <a href="http://tlh-resurgens.com">Thomas Leon Highbaugh</a> 2019</span>
               </Typography>
         </Paper>
       </footer>
