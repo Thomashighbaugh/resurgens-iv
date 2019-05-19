@@ -2,7 +2,6 @@ import React, { Component } from "react";
 
 import AboutCard from "./AboutCard/AboutCard";
 import ActionButtons from "./ActionButtons/ActionButtons";
-import Footer from '../Footer/Footer';
 
 //@material-ui imports
 import { withStyles } from "@material-ui/core/styles";
@@ -36,7 +35,7 @@ const styles = theme => ({
     height: "100vh",
     display: "flex",
     flexDirection: "column",
-    backgroundColor: "#b6b6b6",
+    backgroundColor: "#000",
     justifyContent: "space-around",
     [theme.breakpoints.down("sm")]: {
       height: "auto",

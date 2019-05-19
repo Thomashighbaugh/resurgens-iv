@@ -12,7 +12,8 @@ const styles = theme => ({
   card: {
     maxWidth: 350,
     padding: 20,
-      color:'#b6b6b6'
+      backgroundColor:'#000',
+      color:'#fff'
   },
   cardMedia: {
     display: "none",
