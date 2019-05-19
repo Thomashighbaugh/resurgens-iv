@@ -37,7 +37,7 @@ class Skills extends Component{
                         />
                         <Skill
                             title='React'
-                            cardImage='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png'
+                            cardImage='https://cdn-images-1.medium.com/max/1600/1*BFV8Gwt5BILa-xv04IK2ng.png'
                         />
                         <Skill
                             title='Redux'
@@ -55,6 +55,14 @@ class Skills extends Component{
                             title='PHP 7'
                             cardImage='https://owncloud.org/wp-content/uploads/2015/07/php7-transparent.png'
                         />
+                        <Skill
+                            title='Perl'
+                            cardImage='https://cdn.freebiesupply.com/logos/large/2x/perl-1-logo-png-transparent.png'
+                            />
+                            <Skill
+                                title="C++"
+                                cardImage="https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png"
+                                />
                         <Skill
                             title='MYSQL'
                             cardImage='https://uploads.toptal.io/blog/category/logo/60/sql.png'
@@ -75,7 +83,18 @@ class Skills extends Component{
                             title='Linux'
                             cardImage='https://cdn.pixabay.com/photo/2013/07/13/11/43/tux-158547_960_720.png'
                         />
-
+<Skill
+    title="Docker"
+    cardImage="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Flogos-download.com%2Fwp-content%2Fuploads%2F2016%2F09%2FDocker_logo.png&f=1"
+    />
+    <Skill
+        title="KVM"
+        cardImage="https://tuchacloud.com/wp-content/uploads/2016/03/KVM-tucha.png"
+        />
+        <Skill
+            title="Vagrant"
+            cardImage="https://seeklogo.com/images/V/vagrant-logo-B214F47636-seeklogo.com.png"
+            />
                     </Grid>
                 </List>
             </Slide>

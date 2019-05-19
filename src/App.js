@@ -42,15 +42,19 @@ const styles = theme => ({
   },
   appBar: {
     height: "6.5em",
+
     [theme.breakpoints.down("xs")]: {
       height:"7em",
       marginBottom:"2em",
+
+
     }
     },
   tabsBar:{
     backgroundColor: "#320575",
     [theme.breakpoints.down("xs")]: {
-      marginBottom: "2em",
+      marginBottom: "5em",
+backgroundColor:"#320575",
     }
   },
   a:{

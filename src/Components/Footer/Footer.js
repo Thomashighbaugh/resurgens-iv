@@ -31,6 +31,7 @@ const styles = theme => ({
   },
   footer: {
     color: "#320575",
+    backgroundColor: "#000"
 
   },
   
