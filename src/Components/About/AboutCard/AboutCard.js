@@ -12,11 +12,12 @@ const styles = theme => ({
   card: {
     maxWidth: 350,
     padding: 20,
-      backgroundColor:'#000',
-      color:'#fff'
+    backgroundColor: "#000",
+    color: "#fff"
   },
   cardMedia: {
     display: "none",
+    color: "#fff",
     [theme.breakpoints.down("sm")]: {
       display: "inline"
     }
@@ -34,7 +35,7 @@ class AboutCard extends Component {
           titleTypographyProps={{
             component: "h5",
             variant: "h5",
-            align: "right"
+            color: "secondary"
           }}
         />
         <CardMedia

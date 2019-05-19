@@ -18,7 +18,7 @@ class ActionButtons extends Component {
       <div className={classes.paper}>
         <ActionButton
           isLink={true}
-          src="https://maxcdn.icons8.com/Share/icon/Logos/github_filled1600.png"
+          src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.iconsdb.com%2Ficons%2Fpreview%2Fwhite%2Fgithub-6-xxl.png&f=1"
           link="https://github.com/Thomashighbaugh"
         />
 

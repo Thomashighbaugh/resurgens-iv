@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
 .App {
   text-align: center;
+  font-family: Audiowide, monospace;
+  color: #fff;
 }
 
 .App-logo {
@@ -9,8 +12,8 @@
 }
 
 .App-header {
-  font-family: 'Audiowide', monospace;
-  background-color:#fff;
+  font-family: "Audiowide", monospace;
+  background-color: #fff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

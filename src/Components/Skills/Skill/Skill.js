@@ -15,11 +15,16 @@ import CardMedia from "@material-ui/core/CardMedia/index";
 import Grow from "@material-ui/core/Grow/index";
 
 const styles = theme => ({
+  headline:{
+    fontFamily:"Audiowide",
+    fontWeight:"900",
+    fontSize:"2em"
+  },
   listItem: {
     display: "none",
     [theme.breakpoints.down("xs")]: {
       display: "flex",
-      width: "100vw"
+      width: "100vw",
     }
   },
   cardImage: {
@@ -31,12 +36,14 @@ const styles = theme => ({
   },
   dialogTitle: {
     display: "flex",
-    alignItems: "center"
+    alignItems: "center",
+
   },
   dialogContent: {
     display: "flex",
     flexDirection: "column",
-    justifyContent: "space-around"
+    justifyContent: "space-around",
+
   },
   closeIcon: {
     width: 32,
@@ -47,7 +54,10 @@ const styles = theme => ({
     height: "80%",
     padding: 10,
     margin: 20,
-    borderRadius: "25%"
+    borderRadius: "25%",
+    backgroundColor:"#d5d5d5",
+
+
   },
   gridItem: {
     [theme.breakpoints.down("xs")]: {
@@ -84,7 +94,7 @@ class Skill extends Component {
           onClick={() => this.toggleDialog()}
         >
           <ListItemText
-            primaryTypographyProps={{ component: "h4", variant: "h4" }}
+            primaryTypographyProps={{ component: "h5", variant: "h5" }}
           >
             {title}
           </ListItemText>

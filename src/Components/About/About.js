@@ -23,12 +23,11 @@ const styles = theme => ({
     display: "flex",
     justifyContent: "space-around",
     alignItems: "center",
-    backgroundColor: "#5b5b5b",
+    backgroundColor: "#d5d5d5",
     padding: "3em",
     borderRadius: "10%",
     marginLeft: "10%",
-    marginRight: "10%",
-
+    marginRight: "10%"
   },
   encompassingDiv: {
     padding: "1em",
@@ -40,8 +39,7 @@ const styles = theme => ({
     [theme.breakpoints.down("sm")]: {
       height: "auto",
       display: "inline"
-    },
-
+    }
   }
 });
 

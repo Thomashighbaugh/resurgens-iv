@@ -31,7 +31,9 @@ const styles = theme => ({
     display: "none",
     [theme.breakpoints.down("xs")]: {
       display: "flex",
-      width: "100vw"
+      width: "100vw",
+      color:'#fff'
+
     }
   },
   cardImage: {
@@ -41,13 +43,12 @@ const styles = theme => ({
   },
   dialogTitle: {
     display: "flex",
-    alignItems: "center",
+    alignItems: "center"
   },
   dialogContent: {
     display: "flex",
     flexDirection: "column",
-    justifyContent: "space-around",
-
+    justifyContent: "space-around"
   },
   closeIcon: {
     width: 32,
@@ -63,14 +64,14 @@ const styles = theme => ({
     padding: 10,
     margin: 16,
     height: "100%",
-    backgroundColor:'#b6b6b6',
-
+    backgroundColor: "#d5d5d5",
   },
   gridItem: {
     [theme.breakpoints.down("xs")]: {
       display: "none"
     }
-  }
+  },
+
 });
 
 class Project extends Component {
@@ -107,7 +108,7 @@ class Project extends Component {
           onClick={() => this.toggleDialog()}
         >
           <ListItemText
-            primaryTypographyProps={{ component: "h5", variant: "h5" }}
+            primaryTypographyProps={{ component: "h5", variant: "h5", color:'#fff' }}
             secondary={subtitle}
           >
             {title}
@@ -131,7 +132,7 @@ class Project extends Component {
             <DialogContent className={classes.dialogContent}>
               <div>
                 <img className={classes.cardImage} src={cardImage}  alt=''/>
-                <Typography component="h4" variant="h4">
+                <Typography component="h4" variant="h4" >
                   {title}
                 </Typography>
                 <Typography variant="subtitle2">{cardText}</Typography>

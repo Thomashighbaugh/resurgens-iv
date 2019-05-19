@@ -1,15 +1,16 @@
 import React, { Component } from "react";
-
+import "./App.css";
 import About from "./Components/About/About";
 import Projects from "./Components/Projects/Projects";
 import Skills from "./Components/Skills/Skills";
 import Footer from "./Components/Footer/Footer";
-
 //@material-ui imports
 import {
   withStyles,
   createMuiTheme,
-  MuiThemeProvider
+  MuiThemeProvider,
+  createPalette,
+  createTypography
 } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Tabs from "@material-ui/core/Tabs";
@@ -19,24 +20,27 @@ import Typography from "@material-ui/core/Typography";
 const theme = createMuiTheme({
   palette: {
     primary: {
-      light: "#5604d1",
       main: "#320575",
-      dark: "#250457",
       contrastText: "#fff"
     },
     secondary: {
-      light: "#dbdbdb",
-      main: "#393939",
-      dark: "#252525",
-      contrastText: "#000"
+      main: "#fff",
     }
+  },
+  typography:{
+    useNextVariants: true,
+    fontFamily: '"Audiowide", Roboto, monospace',
+    color:'#fff'
   }
 });
 
 const styles = theme => ({
-  appBar: {
-    height: '6.5em',
+  root: {
+    fontFamily: "Audiowide"
   },
+  appBar: {
+    height: "6.5em"
+  }
 });
 
 class App extends Component {
@@ -80,7 +84,7 @@ class App extends Component {
           {tabValue === 0 && <About />}
           {tabValue === 1 && <Projects />}
           {tabValue === 2 && <Skills />}
-        <Footer/>
+          <Footer />
         </div>
       </MuiThemeProvider>
     );
