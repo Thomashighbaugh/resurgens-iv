@@ -10,8 +10,8 @@ import { Grid } from "@material-ui/core";
 
 const styles = () => ({
   imgIcon: {
-    width: 250,
-    height: 250,
+    width: 150,
+    height: 150,
     borderColor: "#d5d5d5",
     borderWidth: "3px",
     borderStyle: "double",

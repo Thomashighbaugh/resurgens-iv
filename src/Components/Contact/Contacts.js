@@ -9,19 +9,22 @@ const styles = () => ({
   paper: {
     display: "flex",
     flexDirection: "row",
+      justifyItems:"center",
     maxWidth: "100%",
     flexWrap: "wrap",
     flexBasis: "25%",
       padding:"2em",
     // backgroundColor:"#320575"
     marginBottom: "10%",
-      margin:"5em"
+      margin:"5.5em"
   },
   header: {
     marginBottom: "1em",
     backgroundColor: "#320575",
     padding: "1em",
-      marginRight:"2em"
+      marginRight:"5.5em",
+      marginLeft:"0.5em"
+
   },
   contact: {
     margin: "2%",
