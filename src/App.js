@@ -4,6 +4,7 @@ import About from "./Components/About/About";
 import Projects from "./Components/Projects/Projects";
 import Skills from "./Components/Skills/Skills";
 import Footer from "./Components/Footer/Footer";
+import Contacts from "./Components/Contact/Contacts";
 //@material-ui imports
 import {
   withStyles,
@@ -97,13 +98,15 @@ class App extends Component {
             >
               <Tab label="About" />
               <Tab label="Projects" />
-              <Tab label="Skills" />>
+              <Tab label="Skills" />
+              <Tab label="Contact" />
             </Tabs>
           </AppBar>
 
           {tabValue === 0 && <About />}
           {tabValue === 1 && <Projects />}
           {tabValue === 2 && <Skills />}
+          {tabValue === 3 && <Contacts />}
           <Footer />
         </div>
       </MuiThemeProvider>
