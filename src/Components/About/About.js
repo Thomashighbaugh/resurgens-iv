@@ -14,6 +14,7 @@ import { Divider } from "@material-ui/core";
 const styles = theme => ({
   img: {
     maxWidth: 400,
+    borderRadius:"10%",
     [theme.breakpoints.down("sm")]: {
       display: "none"
     }
@@ -23,8 +24,8 @@ const styles = theme => ({
     display: "flex",
     justifyContent: "space-around",
     alignItems: "center",
-    backgroundColor: "#d5d5d5",
-    padding: "3em",
+    backgroundColor: "#320575",
+    padding: "2em",
     borderRadius: "10%",
     marginLeft: "10%",
     marginRight: "10%"
