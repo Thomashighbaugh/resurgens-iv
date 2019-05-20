@@ -37,12 +37,12 @@ class ActionButton extends Component {
       <div>
         {isLink ? (
           <IconButton component="a" href={link} target="blank">
-            <img src={src} className={classes.imgIcon} alt="" />
+            <img src={src} className={classes.imgIcon} alt={link} />
           </IconButton>
         ) : (
           <CopyToClipboard text={link} onCopy={() => this.toggleSnackbar()}>
             <IconButton>
-              <img src={src} className={classes.imgIcon} alt="" />
+              <img src={src} className={classes.imgIcon} alt={link} />
             </IconButton>
           </CopyToClipboard>
         )}

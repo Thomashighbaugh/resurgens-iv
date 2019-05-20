@@ -58,11 +58,13 @@ const styles = theme => ({
     height: "80%",
     padding: 10,
     margin: 20,
-    borderRadius: "25%",
-backgroundColor:"#000",
+backgroundColor:"#320575",
+    borderStyle:"double",
+    borderColor:"#d5d5d5",
+    borderWidth:"3px",
     [theme.breakpoints.down("xs")]: {
       marginTop: "5em",
-      backgroundColor:"#000"
+      color:"#320575"
     },
 
   },
