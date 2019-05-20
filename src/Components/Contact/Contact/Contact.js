@@ -29,7 +29,6 @@ iconButton:{
     borderStyle:"double",
     borderColor:"d5d5d5",
     borderRadius: "0%",
-    padding:"10%"
 }
 });
 
