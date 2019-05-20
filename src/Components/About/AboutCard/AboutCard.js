@@ -14,7 +14,9 @@ const styles = theme => ({
     padding: 20,
     backgroundColor: "#000",
     color: "#fff",
-      borderRadius:"10%"
+      borderStyle:"double",
+      borderColor:"#d5d5d5",
+      borderWidth:"3px",
   },
   cardMedia: {
     display: "none",

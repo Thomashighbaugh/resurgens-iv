@@ -66,7 +66,7 @@ const styles = theme => ({
     maxWidth: 300,
     padding: 10,
     margin: 16,
-    height: "100%",
+    height: "95%",
     backgroundColor: "#320575",
     borderColor:"#d5d5d5",
     borderWidth:"3px",
