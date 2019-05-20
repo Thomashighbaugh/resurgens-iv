@@ -25,8 +25,7 @@ const styles = () => ({
   iconButton: {
     backgroundColor: "#320575",
     width: "90%",
-      borderRadius: "0%",
-
+    borderRadius: "0%"
   },
   gridItem: {
     display: "flex",
@@ -35,8 +34,7 @@ const styles = () => ({
     borderStyle: "double",
     borderWidth: "3px",
     margin: "1em",
-    flexDirection: "column",
-
+    flexDirection: "column"
   }
 });
 
@@ -75,9 +73,11 @@ class Contact extends Component {
           </IconButton>
         ) : (
           <CopyToClipboard text={link} onCopy={() => this.toggleSnackbar()}>
-            <IconButton className={classes.iconButton}
-                        component="a"
-                        target="blank">
+            <IconButton
+              className={classes.iconButton}
+              component="a"
+              target="blank"
+            >
               <div>
                 <img src={src} className={classes.imgIcon} alt={title} />
 

@@ -15,19 +15,19 @@ import CardMedia from "@material-ui/core/CardMedia/index";
 import Grow from "@material-ui/core/Grow/index";
 
 const styles = theme => ({
-  headline:{
-    fontFamily:"Audiowide",
-    fontWeight:"900",
-    fontSize:"2em"
+  headline: {
+    fontFamily: "Audiowide",
+    fontWeight: "900",
+    fontSize: "2em"
   },
   listItem: {
     display: "none",
     [theme.breakpoints.down("xs")]: {
       display: "flex",
       width: "100vw",
-      marginTop:"5em",
-      backgroundColor:"#000",
-      color:"#fff"
+      marginTop: "5em",
+      backgroundColor: "#000",
+      color: "#fff"
     }
   },
   cardImage: {
@@ -39,15 +39,12 @@ const styles = theme => ({
   },
   dialogTitle: {
     display: "flex",
-    alignItems: "center",
-
+    alignItems: "center"
   },
   dialogContent: {
     display: "flex",
     flexDirection: "column",
-    justifyContent: "space-around",
-
-
+    justifyContent: "space-around"
   },
   closeIcon: {
     width: 32,
@@ -58,15 +55,14 @@ const styles = theme => ({
     height: "80%",
     padding: 10,
     margin: 20,
-backgroundColor:"#320575",
-    borderStyle:"double",
-    borderColor:"#d5d5d5",
-    borderWidth:"3px",
+    backgroundColor: "#320575",
+    borderStyle: "double",
+    borderColor: "#d5d5d5",
+    borderWidth: "3px",
     [theme.breakpoints.down("xs")]: {
       marginTop: "5em",
-      color:"#320575"
-    },
-
+      color: "#320575"
+    }
   },
   gridItem: {
     [theme.breakpoints.down("xs")]: {
@@ -144,7 +140,7 @@ class Skill extends Component {
               titleTypographyProps={{
                 component: "h5",
                 variant: "h5",
-                align: "center",
+                align: "center"
               }}
             />
           </Card>

@@ -32,12 +32,12 @@ const styles = theme => ({
     [theme.breakpoints.down("xs")]: {
       display: "flex",
       width: "100vw",
-      marginTop:"3em"
-      }
+      marginTop: "3em"
+    }
   },
-  listItemText:{
+  listItemText: {
     backgroundColor: "#320575",
-    color:"#fff"
+    color: "#fff"
   },
   cardImage: {
     width: "100%",
@@ -68,16 +68,16 @@ const styles = theme => ({
     margin: 16,
     height: "95%",
     backgroundColor: "#320575",
-    borderColor:"#d5d5d5",
-    borderWidth:"3px",
-    borderStyle:"double",
-    color:"#fff"  },
+    borderColor: "#d5d5d5",
+    borderWidth: "3px",
+    borderStyle: "double",
+    color: "#fff"
+  },
   gridItem: {
     [theme.breakpoints.down("xs")]: {
       display: "none"
     }
-  },
-
+  }
 });
 
 class Project extends Component {
@@ -114,8 +114,12 @@ class Project extends Component {
           onClick={() => this.toggleDialog()}
         >
           <ListItemText
-              className={classes.listItemText}
-            primaryTypographyProps={{ component: "h5", variant: "h5", color:'#fff' }}
+            className={classes.listItemText}
+            primaryTypographyProps={{
+              component: "h5",
+              variant: "h5",
+              color: "#fff"
+            }}
             secondary={subtitle}
           >
             {title}
@@ -138,8 +142,8 @@ class Project extends Component {
 
             <DialogContent className={classes.dialogContent}>
               <div>
-                <img className={classes.cardImage} src={cardImage}  alt=''/>
-                <Typography component="h4" variant="h4" >
+                <img className={classes.cardImage} src={cardImage} alt="" />
+                <Typography component="h4" variant="h4">
                   {title}
                 </Typography>
                 <Typography variant="subtitle2">{cardText}</Typography>

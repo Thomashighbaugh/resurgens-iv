@@ -20,47 +20,45 @@ import Typography from "@material-ui/core/Typography";
 
 const theme = createMuiTheme({
   palette: {
-    type:"dark",
+    type: "dark",
     primary: {
       main: "#320575",
       contrastText: "#fff"
     },
     secondary: {
-      main: "#fff",
+      main: "#fff"
     }
   },
-  typography:{
+  typography: {
     useNextVariants: true,
     fontFamily: '"Audiowide", Roboto, monospace',
-    color:'#fff',
-    backgroundColor:"#000"
+    color: "#fff",
+    backgroundColor: "#000"
   }
 });
 
 const styles = theme => ({
   root: {
-    fontFamily: "Audiowide",
+    fontFamily: "Audiowide"
   },
   appBar: {
     height: "6.5em",
 
     [theme.breakpoints.down("xs")]: {
-      height:"7em",
-      marginBottom:"2em",
-
-
+      height: "7em",
+      marginBottom: "2em"
     }
-    },
-  tabsBar:{
+  },
+  tabsBar: {
     backgroundColor: "#320575",
     [theme.breakpoints.down("xs")]: {
       marginBottom: "5em",
-backgroundColor:"#320575",
+      backgroundColor: "#320575"
     }
   },
-  a:{
-    color:"#320575"
-},
+  a: {
+    color: "#320575"
+  }
 });
 
 class App extends Component {
@@ -91,7 +89,7 @@ class App extends Component {
               <span>Resurgens IV</span>
             </Typography>
             <Tabs
-                className={classes.tabsBar}
+              className={classes.tabsBar}
               value={tabValue}
               onChange={(e, tabValue) => this.handleChange(e, tabValue)}
               centered={true}
