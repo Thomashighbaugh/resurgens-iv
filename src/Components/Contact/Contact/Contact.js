@@ -7,13 +7,30 @@ import { withStyles } from "@material-ui/core/styles";
 import IconButton from "@material-ui/core/IconButton";
 import Snackbar from "@material-ui/core/Snackbar";
 import Typography from "@material-ui/core/Typography";
+import {Grid} from "@material-ui/core";
 
 const styles = () => ({
     imgIcon: {
-        width: 75,
-        height: 75,
-        borderRadius: "50%"
-    }
+        width: 200,
+        height: 200,
+        borderColor:"#d5d5d5",
+        borderWidth:"3px",
+        borderStyle:"double",
+        backgroundColor:"#000",
+        borderRadius:"25%"
+    },
+title:{
+        display:"flex",
+    alignItems:"center",
+},
+iconButton:{
+        backgroundColor: "#320575",
+    borderWidth:"3px",
+    borderStyle:"double",
+    borderColor:"d5d5d5",
+    borderRadius: "0%",
+    padding:"10%"
+}
 });
 
 class Contact extends Component {
@@ -30,20 +47,31 @@ class Contact extends Component {
     }
 
     render() {
-        const { src, link, classes, isLink } = this.props;
+        const { src, link, classes, isLink,title } = this.props;
         const { isSnackbarOpen } = this.state;
 
         return (
-            <div>
+            <button>
                 {isLink ? (
-                    <IconButton component="a" href={link} target="blank">
-                        <img src={src} className={classes.imgIcon} alt={link} />
+                    <IconButton className={classes.iconButton} component="a" href={link} target="blank">
+                        <div>
+                        <img src={src} className={classes.imgIcon} alt={title} />
+                        <Typography component="h5" variant="h5">
+                            {title}
+                        </Typography>
+                        </div>
                     </IconButton>
                 ) : (
                     <CopyToClipboard text={link} onCopy={() => this.toggleSnackbar()}>
-                        <IconButton>
-                            <img src={src} className={classes.imgIcon} alt={link} />
-                        </IconButton>
+                        <IconButton className={classes.iconButton}>
+                            <div>
+                            <img src={src} className={classes.imgIcon} alt={title} />
+
+       <Typography component="h5" variant="h5">
+           {title}
+       </Typography>
+                            </div>
+       </IconButton>
                     </CopyToClipboard>
                 )}
 
@@ -59,7 +87,7 @@ class Contact extends Component {
                         horizontal: "right"
                     }}
                 />
-            </div>
+                </button>
         );
     }
 }
