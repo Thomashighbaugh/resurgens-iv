@@ -36,7 +36,7 @@ const styles = theme => ({
       }
   },
   listItemText:{
-    backgroundColor: "#000",
+    backgroundColor: "#320575",
     color:"#fff"
   },
   cardImage: {
@@ -67,7 +67,10 @@ const styles = theme => ({
     padding: 10,
     margin: 16,
     height: "100%",
-    backgroundColor: "#000",
+    backgroundColor: "#320575",
+    borderColor:"#d5d5d5",
+    borderWidth:"3px",
+    borderStyle:"double",
     color:"#fff"  },
   gridItem: {
     [theme.breakpoints.down("xs")]: {
