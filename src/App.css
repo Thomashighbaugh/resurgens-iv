@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Audiowide");
+body{
+  background-image: url("http://tlh-resurgens.com/31.png");
+}
 .App {
   text-align: center;
   font-family: Audiowide, monospace;
@@ -31,8 +34,8 @@ a:link {
   background-color: #d5d5d5;
 }
 a:visited {
-  color: #d5d5d5;
-  background-color: #391CAF;
+  background-color: #d5d5d5;
+  color: #391CAF;
 }
 a:hover {
   color:#EFC5FD;
