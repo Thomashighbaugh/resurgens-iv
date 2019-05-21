@@ -36,7 +36,7 @@ const styles = theme => ({
     }
   },
   listItemText: {
-    backgroundColor: "#320575",
+    backgroundColor: "#391CAF",
     color: "#fff"
   },
   cardImage: {
@@ -67,7 +67,7 @@ const styles = theme => ({
     padding: 10,
     margin: 16,
     height: "95%",
-    backgroundColor: "#320575",
+    backgroundColor: "#391CAF",
     borderColor: "#d5d5d5",
     borderWidth: "3px",
     borderStyle: "double",

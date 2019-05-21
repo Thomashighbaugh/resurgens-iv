@@ -26,7 +26,7 @@ const styles = theme => ({
     display: "flex",
     justifyContent: "space-around",
     alignItems: "center",
-    backgroundColor: "#320575",
+    backgroundColor: "#391CAF",
     padding: "2em",
     borderStyle: "double",
     borderColor: "#d5d5d5",

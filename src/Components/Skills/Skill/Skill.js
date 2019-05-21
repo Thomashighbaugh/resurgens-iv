@@ -55,13 +55,13 @@ const styles = theme => ({
     height: "80%",
     padding: 10,
     margin: 20,
-    backgroundColor: "#320575",
+    backgroundColor: "#391CAF",
     borderStyle: "double",
     borderColor: "#d5d5d5",
     borderWidth: "3px",
     [theme.breakpoints.down("xs")]: {
       marginTop: "5em",
-      color: "#320575"
+      color: "#391CAF"
     }
   },
   gridItem: {

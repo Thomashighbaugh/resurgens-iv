@@ -23,7 +23,7 @@ const styles = () => ({
     alignItems: "center"
   },
   iconButton: {
-    backgroundColor: "#320575",
+    backgroundColor: "#391CAF",
     width: "90%",
     borderRadius: "0%"
   },

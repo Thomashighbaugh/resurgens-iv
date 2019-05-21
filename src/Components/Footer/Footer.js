@@ -9,7 +9,7 @@ const theme = createMuiTheme({
   palette: {
     primary: {
       light: "#5604d1",
-      main: "#320575",
+      main: "#391CAF",
       dark: "#250457",
       contrastText: "#fff"
     },
@@ -24,12 +24,12 @@ const theme = createMuiTheme({
 
 const styles = theme => ({
   root: {
-    backgroundColor: "#320575",
+    backgroundColor: "#391CAF",
     color: "#fff",
     size: "5em"
   },
   footer: {
-    color: "#320575",
+    color: "#391CAF",
     backgroundColor: "#000"
   }
 });

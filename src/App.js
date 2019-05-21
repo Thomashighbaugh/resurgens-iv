@@ -22,7 +22,7 @@ const theme = createMuiTheme({
   palette: {
     type: "dark",
     primary: {
-      main: "#320575",
+      main: "#391CAF",
       contrastText: "#fff"
     },
     secondary: {
@@ -50,14 +50,14 @@ const styles = theme => ({
     }
   },
   tabsBar: {
-    backgroundColor: "#320575",
+    backgroundColor: "#391CAF",
     [theme.breakpoints.down("xs")]: {
       marginBottom: "5em",
-      backgroundColor: "#320575"
+      backgroundColor: "#391CAF"
     }
   },
   a: {
-    color: "#320575"
+    color: "#391CAF"
   }
 });
 

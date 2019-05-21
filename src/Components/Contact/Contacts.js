@@ -14,13 +14,13 @@ const styles = () => ({
     flexWrap: "wrap",
     flexBasis: "25%",
     padding: "2em",
-    // backgroundColor:"#320575"
+    // backgroundColor:"#391CAF"
     marginBottom: "10%",
     margin: "5.5em"
   },
   header: {
     marginBottom: "1em",
-    backgroundColor: "#320575",
+    backgroundColor: "#391CAF",
     padding: "1em",
     marginRight: "5.5em",
     marginLeft: "0.5em"
