@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Audiowide");
 body{
   background-image: url("http://tlh-resurgens.com/31.png");
+  background-size: 100% 100%;
 }
 .App {
   text-align: center;
   font-family: Audiowide, monospace;
   color: #fff;
   background-image: url("http://tlh-resurgens.com/31.png");
-
+  background-size: 100% 100%;
 }
 
 .App-logo {
