@@ -17,7 +17,7 @@ import AppBar from "@material-ui/core/AppBar";
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 import Typography from "@material-ui/core/Typography";
-
+import CardMedia from '@material-ui/core/CardMedia';
 const theme = createMuiTheme({
   palette: {
     type: "dark",
@@ -44,6 +44,9 @@ const styles = theme => ({
     fontFamily: "Audiowide",
     backgroundImage: "url(' require + http://tlh-resurgens.com/31.png + ')",
 
+  },
+  image:{
+    height:"100%"
   },
   appBar: {
     height: "6.5em",
@@ -81,7 +84,7 @@ class App extends Component {
     const { tabValue } = this.state;
     const { classes } = this.props;
     return (
-      <MuiThemeProvider theme={theme}>
+      <MuiThemeProvider theme={theme} image="https://tlh-resurgens.com/31.png">
         <div>
           <AppBar position="static" className={classes.appBar}>
             <Typography
