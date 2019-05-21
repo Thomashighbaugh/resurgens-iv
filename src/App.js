@@ -28,7 +28,7 @@ const theme = createMuiTheme({
     secondary: {
       main: "#fff"
     },
-    backgroundImage: "url(' + http://tlh-resurgens.com/31.png + ')",
+    backgroundImage: "url(' require + http://tlh-resurgens.com/31.png + ')",
 
   },
   typography: {
@@ -42,7 +42,7 @@ const theme = createMuiTheme({
 const styles = theme => ({
   root: {
     fontFamily: "Audiowide",
-    backgroundImage: "url(' + http://tlh-resurgens.com/31.png + ')",
+    backgroundImage: "url(' require + http://tlh-resurgens.com/31.png + ')",
 
   },
   appBar: {
