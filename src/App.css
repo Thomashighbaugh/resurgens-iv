@@ -28,15 +28,18 @@
 }
 a:link {
   color: #391CAF;
+  background-color: #d5d5d5;
 }
 a:visited {
   color: #d5d5d5;
+  background-color: #391CAF;
 }
 a:hover {
-  color: #ff3f97;
-}
+  color:#EFC5FD;
+  background-color: #d5d5d5;}
 a:active {
   color: #391CAF;
+  background-color: #d5d5d5;
 }
 
 @keyframes App-logo-spin {
