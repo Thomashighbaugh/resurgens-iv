@@ -92,7 +92,7 @@ class Contact extends Component {
         <Snackbar
           open={isSnackbarOpen}
           message={
-            <Typography color="inherit">Email copied to clipboard!</Typography>
+            <Typography color="inherit">Copied to clipboard!</Typography>
           }
           onClose={() => this.toggleSnackbar()}
           autoHideDuration={2000}

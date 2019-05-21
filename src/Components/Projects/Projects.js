@@ -75,7 +75,7 @@ class Projects extends Component {
               title="Resurgens 2"
               subtitle="The second incarnation of the Resurgens Portfolio."
               cardText="An earlier example of the then formulating Electric Tantra Design Paradigm, this version of my portfolio was primarily designed for simplicity and functionality.                   Unlike the more stylized versions of Resurgens, this version eschewed complex design patterns in order to create an interface that was functional and demonstrated Javascript                skills. As this site makes evident, my skills have improved dramatically since this site was the flagship of my efforts, nonetheless the interface remains compelling and so it              is still showcased in my "
-              cardImage="https://resurgens-iii.netlify.com/Project-Images/BlogTemplate.png"
+              cardImage="https://resurgens-iii.netlify.com/Project-Images/resurgens2.png"
               githubLink="https://github.com/Thomashighbaugh/resurgens-2"
               hostedLink="https://tlh-resurgens-v2.netlify.com/"
               isHosted={true}
