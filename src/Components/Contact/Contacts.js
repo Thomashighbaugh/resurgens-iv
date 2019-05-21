@@ -5,7 +5,7 @@ import Contact from "./Contact/Contact";
 import { withStyles } from "@material-ui/core/styles";
 import { Divider, Grid, Typography } from "@material-ui/core";
 
-const styles = () => ({
+const styles = theme => ({
   paper: {
     display: "flex",
     flexDirection: "row",
@@ -23,8 +23,11 @@ const styles = () => ({
     backgroundColor: "#391CAF",
     padding: "1em",
     marginRight: "5.5em",
-    marginLeft: "0.5em"
-  },
+    marginLeft: "0.5em",
+      [theme.breakpoints.down("xs")]: {
+        display:"none",
+      }
+      },
   contact: {
     margin: "2%",
     padding: "2%"

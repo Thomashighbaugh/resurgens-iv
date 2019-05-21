@@ -5,6 +5,7 @@ body {
     "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("http://tlh-resurgens.com/31.png");
   background-color: #000000;
 }
 

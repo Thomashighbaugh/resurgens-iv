@@ -39,7 +39,7 @@ const styles = theme => ({
     height: "100vh",
     display: "flex",
     flexDirection: "column",
-    backgroundColor: "#000",
+    background: "inherit",
     justifyContent: "space-around",
     [theme.breakpoints.down("sm")]: {
       height: "auto",
