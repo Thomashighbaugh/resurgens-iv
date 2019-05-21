@@ -39,7 +39,9 @@ const theme = createMuiTheme({
 
 const styles = theme => ({
   root: {
-    fontFamily: "Audiowide"
+    fontFamily: "Audiowide",
+    backgroundImage: "url(' + http://tlh-resurgens.com/31.png + ')",
+
   },
   appBar: {
     height: "6.5em",

@@ -35,6 +35,7 @@ const styles = theme => ({
     marginRight: "10%"
   },
   encompassingDiv: {
+    backgroundImage: "url(' + http://tlh-resurgens.com/31.png + ')",
     padding: "1em",
     height: "100vh",
     display: "flex",
