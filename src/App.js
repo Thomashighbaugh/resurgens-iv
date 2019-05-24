@@ -5,6 +5,7 @@ import Projects from "./Components/Projects/Projects";
 import Skills from "./Components/Skills/Skills";
 import Footer from "./Components/Footer/Footer";
 import Contacts from "./Components/Contact/Contacts";
+import Image from '../src/Project-Images/31.png';
 //@material-ui imports
 import {
   withStyles,
@@ -40,8 +41,7 @@ const theme = createMuiTheme({
 const styles = theme => ({
   root: {
     fontFamily: "Audiowide",
-    backgroundImage: `url(${"%PUBLIC_URL%/public/Project-Images/31.png"})`
-  },
+    backgroundImage: `url(${Image})`  },
   body:{
     backgroundImage: `url(${"%PUBLIC_URL%/public/Project-Images/31.png"})`,
 
