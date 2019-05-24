@@ -7,8 +7,11 @@ body {
   text-align: center;
   font-family: Audiowide, monospace;
   color: #fff;
-  background-image: url("http://tlh-resurgens.com/31.png");
+ /* background-image: url("http://tlh-resurgens.com/31.png"); */
   background-image: url("/src/Project-Images/31.png");
+  background-repeat: space;
+  background-position: center;
+  height: 1600px;
   background-size: 100% 100%;
 }
 
@@ -35,10 +38,8 @@ body {
 }
 a:link {
   color: #391caf;
-  background-color: #d5d5d5;
 }
 a:visited {
-  background-color: #d5d5d5;
   color: #391caf;
 }
 a:hover {
@@ -47,7 +48,6 @@ a:hover {
 }
 a:active {
   color: #391caf;
-  background-color: #d5d5d5;
 }
 
 @keyframes App-logo-spin {
