@@ -40,7 +40,7 @@ const theme = createMuiTheme({
 const styles = theme => ({
   root: {
     fontFamily: "Audiowide",
-    backgroundImage: 'url(${%PUBLIC_URL%/src/Project-Images/31.png})'
+    backgroundImage: 'url(${%PUBLIC_URL%/public/Project-Images/31.png})'
 
   },
 
