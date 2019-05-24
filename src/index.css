@@ -1,3 +1,6 @@
+body, html {
+  height: 100%;
+}
 body {
   margin: 0;
   padding: 0;
@@ -16,4 +19,10 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
   monospace;
+}
+.bg {
+  background-image: url("http://tlh-resurgens.com/31.png");
+  height: 100vh;
+  background-repeat: repeat;
+  background-size: 30% 30%;
 }

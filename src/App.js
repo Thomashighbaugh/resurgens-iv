@@ -5,7 +5,8 @@ import Projects from "./Components/Projects/Projects";
 import Skills from "./Components/Skills/Skills";
 import Footer from "./Components/Footer/Footer";
 import Contacts from "./Components/Contact/Contacts";
-import '../src/index.css';
+import BackgroundImagePage from "./Components/BackgroundImagePage/BackgroundImagePage"
+import '/src/index.css';
 //@material-ui imports
 import {
   withStyles,
@@ -16,6 +17,7 @@ import AppBar from "@material-ui/core/AppBar";
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 import Typography from "@material-ui/core/Typography";
+import BackgroundImagePage from "./Components/BackgroundImagePage/BackgroundImagePage";
 
 const theme = createMuiTheme({
   palette: {
@@ -108,6 +110,7 @@ class App extends Component {
           {tabValue === 1 && <Projects />}
           {tabValue === 2 && <Skills />}
           {tabValue === 3 && <Contacts />}
+          <BackgroundImagePage />
           <Footer />
         </div>
       </MuiThemeProvider>
