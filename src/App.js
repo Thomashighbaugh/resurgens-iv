@@ -26,7 +26,7 @@ const theme = createMuiTheme({
     secondary: {
       main: "#fff"
     },
-    backgroundImage: url('http://tlh-resurgens.com/31.png')
+    backgroundImage: 'url(${http://tlh-resurgens.com/31.png})'
   },
   typography: {
     useNextVariants: true,
