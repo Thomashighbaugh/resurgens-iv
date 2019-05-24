@@ -22,7 +22,7 @@ const theme = createMuiTheme({
     primary: {
       main: "#391CAF",
       contrastText: "#fff",
-      backgroundImage: 'url(${{ + imgUrl + })',
+      backgroundImage: 'url(' + imgUrl + ')',
     },
     secondary: {
       main: "#fff"
