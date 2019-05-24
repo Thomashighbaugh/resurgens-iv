@@ -40,7 +40,11 @@ const theme = createMuiTheme({
 const styles = theme => ({
   root: {
     fontFamily: "Audiowide",
-    backgroundImage: `url(${"public/Project-Images/31.png"})`
+    backgroundImage: `url(${"%PUBLIC_URL%/public/Project-Images/31.png"})`
+  },
+  body:{
+    backgroundImage: `url(${"%PUBLIC_URL%/public/Project-Images/31.png"})`,
+
   },
   appBar: {
     height: "6.5em",
