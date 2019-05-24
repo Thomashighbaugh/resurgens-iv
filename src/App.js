@@ -26,14 +26,15 @@ const theme = createMuiTheme({
     secondary: {
       main: "#fff"
     },
-    backgroundImage: 'url(${http://tlh-resurgens.com/31.png})'
   },
   typography: {
     useNextVariants: true,
     fontFamily: '"Audiowide", Roboto, monospace',
     color: "#fff",
     backgroundColor: "#000"
-  }
+  },
+  backgroundImage: 'url(${http://tlh-resurgens.com/31.png})'
+
 });
 
 const styles = theme => ({
