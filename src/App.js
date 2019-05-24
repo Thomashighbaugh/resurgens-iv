@@ -5,14 +5,11 @@ import Projects from "./Components/Projects/Projects";
 import Skills from "./Components/Skills/Skills";
 import Footer from "./Components/Footer/Footer";
 import Contacts from "./Components/Contact/Contacts";
-import Image from '../src/Project-Images/31.png';
 //@material-ui imports
 import {
   withStyles,
   createMuiTheme,
-  MuiThemeProvider,
-  createPalette,
-  createTypography
+  MuiThemeProvider
 } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Tabs from "@material-ui/core/Tabs";
@@ -41,7 +38,9 @@ const theme = createMuiTheme({
 const styles = theme => ({
   root: {
     fontFamily: "Audiowide",
+
   },
+
   appBar: {
     height: "6.5em",
 
@@ -59,6 +58,11 @@ const styles = theme => ({
   },
   a: {
     color: "#391CAF"
+  },
+  backgroundContainer:{
+    backgroundImage: `url(${"../src/Project-Images/31.png"})`,
+    backgroundSize: "30%",
+    backgroundRepeat:"repeat",
   }
 });
 
@@ -77,9 +81,10 @@ class App extends Component {
   render() {
     const { tabValue } = this.state;
     const { classes } = this.props;
+    // noinspection HtmlDeprecatedAttribute
     return (
       <MuiThemeProvider theme={theme}>
-        <div>
+        <div className={classes.backgroundContainer}>
           <AppBar position="static" className={classes.appBar}>
             <Typography
               component="h2"
