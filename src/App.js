@@ -33,7 +33,7 @@ const theme = createMuiTheme({
     color: "#fff",
     backgroundColor: "#000"
   },
-  backgroundImage: 'url(${http://tlh-resurgens.com/31.png})'
+  backgroundImage: 'url(${/src/Project-Images/31.png})'
 
 });
 
