@@ -43,7 +43,7 @@ const styles = theme => ({
     fontFamily: "Audiowide",
     height:1600,
     backgroundImage: `url(${Image})`  },
-  body:{
+  containerImage:{
     backgroundImage: `url(${Image})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
@@ -72,6 +72,7 @@ const styles = theme => ({
 });
 
 class App extends Component {
+  containerImage;
   constructor(props) {
     super(props);
     this.state = {
@@ -88,7 +89,7 @@ class App extends Component {
     const { classes } = this.props;
     return (
       <MuiThemeProvider theme={theme}>
-        <div>
+        <div className={this.containerImage}>
           <AppBar position="static" className={classes.appBar}>
             <Typography
               component="h2"
