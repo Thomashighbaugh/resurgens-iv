@@ -61,7 +61,7 @@ const styles = theme => ({
   },
 
 });
-
+let imgUrl = '/src/Project-Images/31.png';
 class App extends Component {
   constructor(props) {
     super(props);
@@ -80,7 +80,12 @@ class App extends Component {
     // noinspection HtmlDeprecatedAttribute
     return (
       <MuiThemeProvider theme={theme}>
-        <div>
+        <div className='backImage'
+            style={{
+              backgroundImage: 'url(' + imgUrl + ')',
+              backgroundSize:'30% 30%',
+              backgroundRepeat: 'repeat',
+            }}>
           <AppBar position="static" className={classes.appBar}>
             <Typography
               component="h2"
