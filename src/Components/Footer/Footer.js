@@ -49,7 +49,7 @@ function Footer(props) {
           >
             <span>
               Another Electric Tantra Site by{" "}
-              <a href="http://tlh-resurgens.com">Thomas Leon Highbaugh</a> 2019
+              Thomas Leon Highbaugh 2019
             </span>
           </Typography>
         </Paper>
