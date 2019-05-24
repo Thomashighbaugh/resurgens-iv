@@ -38,20 +38,20 @@ const theme = createMuiTheme({
     backgroundColor: "#000"
   }
 });
-const BackgroundHead = {
-  backgroundImage: 'url('+ BackgroundHeader+')'
-};
+
 const styles = theme => ({
   root: {
     fontFamily: "Audiowide",
     height:1600,
     backgroundImage: `url(${Image})`  },
   body:{
-    backgroundImage: `url(${Image})`  },
-paperContainer:{
-    height:1600,
-  backgroundImage: 'url(${"src/Project-Images/31.png"})'
-},
+    backgroundImage: `url(${Image})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    width: `calc(100vw + 48px)`,
+    margin: -24,
+    padding: 24,
+  },
   appBar: {
     height: "6.5em",
 
@@ -89,7 +89,7 @@ class App extends Component {
     const { classes } = this.props;
     return (
       <MuiThemeProvider theme={theme}>
-        <div style={BackgroundHead}>
+        <div>
           <AppBar position="static" className={classes.appBar}>
             <Typography
               component="h2"
