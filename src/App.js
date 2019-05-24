@@ -83,6 +83,7 @@ class App extends Component {
     return (
       <MuiThemeProvider theme={theme}>
         <div>
+          <img src={Image}  alt='image'/>
           <AppBar position="static" className={classes.appBar}>
             <Typography
               component="h2"
