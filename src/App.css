@@ -9,7 +9,8 @@ body{
   font-family: Audiowide, monospace;
   color: #fff;
   background-image: url("http://tlh-resurgens.com/31.png");
-  background-image: url("%PUBLIC_URL%/Project-Images/31.png");
+  background-image: url("%PUBLIC_URL%/public/Project-Images/31.png");
+
   background-size: 100% 100%;
 }
 
