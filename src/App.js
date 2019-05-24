@@ -15,14 +15,14 @@ import AppBar from "@material-ui/core/AppBar";
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 import Typography from "@material-ui/core/Typography";
-
+let imgUrl = 'http://tlh-resurgens.com/31.png';
 const theme = createMuiTheme({
   palette: {
     type: "dark",
     primary: {
       main: "#391CAF",
       contrastText: "#fff",
-      backgroundImage: 'url(${"http://tlh-resurgens.com/31.png"})',
+      backgroundImage: 'url(${{ + imgUrl + })',
     },
     secondary: {
       main: "#fff"
@@ -61,7 +61,6 @@ const styles = theme => ({
   },
 
 });
-let imgUrl = '/src/Project-Images/31.png';
 class App extends Component {
   constructor(props) {
     super(props);
@@ -80,12 +79,7 @@ class App extends Component {
     // noinspection HtmlDeprecatedAttribute
     return (
       <MuiThemeProvider theme={theme}>
-        <div className='backImage'
-            style={{
-              backgroundImage: 'url(' + imgUrl + ')',
-              backgroundSize:'30% 30%',
-              backgroundRepeat: 'repeat',
-            }}>
+        <div>
           <AppBar position="static" className={classes.appBar}>
             <Typography
               component="h2"
