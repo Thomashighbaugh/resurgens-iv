@@ -6,7 +6,7 @@ import Skills from "./Components/Skills/Skills";
 import Footer from "./Components/Footer/Footer";
 import Contacts from "./Components/Contact/Contacts";
 import BackgroundImagePage from "./Components/BackgroundImagePage/BackgroundImagePage"
-import 'src/index.css';
+import './index.css';
 //@material-ui imports
 import {
   withStyles,
