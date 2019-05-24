@@ -5,7 +5,6 @@ import Projects from "./Components/Projects/Projects";
 import Skills from "./Components/Skills/Skills";
 import Footer from "./Components/Footer/Footer";
 import Contacts from "./Components/Contact/Contacts";
-import BackgroundImagePage from "./Components/BackgroundImagePage/BackgroundImagePage"
 //@material-ui imports
 import {
   withStyles,
@@ -108,7 +107,7 @@ class App extends Component {
           {tabValue === 1 && <Projects />}
           {tabValue === 2 && <Skills />}
           {tabValue === 3 && <Contacts />}
-          <BackgroundImagePage />
+
           <Footer />
         </div>
       </MuiThemeProvider>
