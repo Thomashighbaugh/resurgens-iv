@@ -44,7 +44,10 @@ const styles = theme => ({
     backgroundImage: `url(${Image})`  },
   body:{
     backgroundImage: `url(${Image})`  },
-
+paperContainer:{
+    height:1600,
+  backgroundImage: 'url(${"src/Project-Images/31.png"})'
+},
   appBar: {
     height: "6.5em",
 
