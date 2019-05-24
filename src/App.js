@@ -6,6 +6,7 @@ import Skills from "./Components/Skills/Skills";
 import Footer from "./Components/Footer/Footer";
 import Contacts from "./Components/Contact/Contacts";
 import Image from '../src/Project-Images/31.png';
+import BackgroundHeader from "src/Project-Images/31.png"
 //@material-ui imports
 import {
   withStyles,
@@ -37,7 +38,9 @@ const theme = createMuiTheme({
     backgroundColor: "#000"
   }
 });
-
+const BackgroundHead = {
+  backgroundImage: 'url('+ BackgroundHeader+')'
+}
 const styles = theme => ({
   root: {
     fontFamily: "Audiowide",
@@ -86,7 +89,7 @@ class App extends Component {
     const { classes } = this.props;
     return (
       <MuiThemeProvider theme={theme}>
-        <div style={styles.paperContainer}>
+        <div style={BackgroundHead}>
           <AppBar position="static" className={classes.appBar}>
             <Typography
               component="h2"
