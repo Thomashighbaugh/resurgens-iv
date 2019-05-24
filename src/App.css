@@ -1,11 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Audiowide");
 body {
-/*  background-image: url("http://tlh-resurgens.com/31.png"); */
-  background-image: url("/src/Project-Images/31.png");
-  background-repeat: space;
-  background-position: center;
-  height: 1600px;
-  background-size: 100% 100%;
+background-image: url("http://tlh-resurgens.com/31.png");
+/*  background-image: url("/src/Project-Images/31.png");*/
+  background-repeat: repeat;
+  background-size: 30% 30%;
 }
 .App {
   text-align: center;
