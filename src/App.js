@@ -85,8 +85,7 @@ class App extends Component {
     const { classes } = this.props;
     return (
       <MuiThemeProvider theme={theme}>
-        <div>
-          <img src={Image}  alt='image'/>
+        <div style={styles.paperContainer}>
           <AppBar position="static" className={classes.appBar}>
             <Typography
               component="h2"
