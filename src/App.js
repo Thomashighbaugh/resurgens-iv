@@ -21,7 +21,8 @@ const theme = createMuiTheme({
     type: "dark",
     primary: {
       main: "#391CAF",
-      contrastText: "#fff"
+      contrastText: "#fff",
+      backgroundImage: 'url(${"../src/Project-Images/31.png"})',
     },
     secondary: {
       main: "#fff"
@@ -38,7 +39,6 @@ const theme = createMuiTheme({
 const styles = theme => ({
   root: {
     fontFamily: "Audiowide",
-
   },
 
   appBar: {
@@ -59,11 +59,7 @@ const styles = theme => ({
   a: {
     color: "#391CAF"
   },
-  backgroundContainer:{
-    backgroundImage: `url(${"../src/Project-Images/31.png"})`,
-    backgroundSize: "30%",
-    backgroundRepeat:"repeat",
-  }
+
 });
 
 class App extends Component {
@@ -84,7 +80,7 @@ class App extends Component {
     // noinspection HtmlDeprecatedAttribute
     return (
       <MuiThemeProvider theme={theme}>
-        <div className={classes.backgroundContainer}>
+        <div>
           <AppBar position="static" className={classes.appBar}>
             <Typography
               component="h2"
