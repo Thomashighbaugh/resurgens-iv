@@ -41,6 +41,7 @@ const theme = createMuiTheme({
 const styles = theme => ({
   root: {
     fontFamily: "Audiowide",
+    height:1600,
     backgroundImage: `url(${Image})`  },
   body:{
     backgroundImage: `url(${Image})`  },
