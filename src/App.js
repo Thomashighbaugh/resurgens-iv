@@ -15,14 +15,13 @@ import AppBar from "@material-ui/core/AppBar";
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 import Typography from "@material-ui/core/Typography";
-let imgUrl = 'http://tlh-resurgens.com/31.png';
+
 const theme = createMuiTheme({
   palette: {
     type: "dark",
     primary: {
       main: "#391CAF",
-      contrastText: "#fff",
-      backgroundImage: 'url(' + imgUrl + ')',
+      contrastText: "#fff"
     },
     secondary: {
       main: "#fff"
@@ -38,7 +37,7 @@ const theme = createMuiTheme({
 
 const styles = theme => ({
   root: {
-    fontFamily: "Audiowide",
+    fontFamily: "Audiowide"
   },
 
   appBar: {
@@ -58,8 +57,7 @@ const styles = theme => ({
   },
   a: {
     color: "#391CAF"
-  },
-
+  }
 });
 class App extends Component {
   constructor(props) {
