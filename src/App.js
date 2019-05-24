@@ -41,15 +41,6 @@ const theme = createMuiTheme({
 const styles = theme => ({
   root: {
     fontFamily: "Audiowide",
-    height:1600,
-    backgroundImage: `url(${Image})`  },
-  containerImage:{
-    backgroundImage: `url(${Image})`,
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    width: `calc(100vw + 48px)`,
-    margin: -24,
-    padding: 24,
   },
   appBar: {
     height: "6.5em",
@@ -83,12 +74,12 @@ class App extends Component {
     this.setState({ tabValue });
   }
 
-  render(containerImage) {
+  render() {
     const { tabValue } = this.state;
     const { classes } = this.props;
     return (
       <MuiThemeProvider theme={theme}>
-        <div className={containerImage}>
+        <div>
           <AppBar position="static" className={classes.appBar}>
             <Typography
               component="h2"
