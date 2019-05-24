@@ -72,7 +72,6 @@ const styles = theme => ({
 });
 
 class App extends Component {
-  containerImage;
   constructor(props) {
     super(props);
     this.state = {
@@ -84,12 +83,12 @@ class App extends Component {
     this.setState({ tabValue });
   }
 
-  render() {
+  render(containerImage) {
     const { tabValue } = this.state;
     const { classes } = this.props;
     return (
       <MuiThemeProvider theme={theme}>
-        <div className={this.containerImage}>
+        <div className={containerImage}>
           <AppBar position="static" className={classes.appBar}>
             <Typography
               component="h2"
