@@ -43,9 +43,8 @@ const styles = theme => ({
     fontFamily: "Audiowide",
     backgroundImage: `url(${Image})`  },
   body:{
-    backgroundImage: `url(${"%PUBLIC_URL%/public/Project-Images/31.png"})`,
+    backgroundImage: `url(${Image})`  },
 
-  },
   appBar: {
     height: "6.5em",
 
