@@ -1,16 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Audiowide");
-body{
+body {
   background-image: url("http://tlh-resurgens.com/31.png");
   background-size: 100% 100%;
-
 }
 .App {
   text-align: center;
   font-family: Audiowide, monospace;
   color: #fff;
   background-image: url("http://tlh-resurgens.com/31.png");
-  background-image: url("%PUBLIC_URL%/public/Project-Images/31.png");
-
   background-size: 100% 100%;
 }
 
@@ -36,18 +33,19 @@ body{
   color: #fff;
 }
 a:link {
-  color: #391CAF;
+  color: #391caf;
   background-color: #d5d5d5;
 }
 a:visited {
   background-color: #d5d5d5;
-  color: #391CAF;
+  color: #391caf;
 }
 a:hover {
-  color:#EFC5FD;
-  background-color: #391CAF;}
+  color: #efc5fd;
+  background-color: #391caf;
+}
 a:active {
-  color: #391CAF;
+  color: #391caf;
   background-color: #d5d5d5;
 }
 
