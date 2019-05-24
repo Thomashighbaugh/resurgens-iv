@@ -40,7 +40,7 @@ const theme = createMuiTheme({
 });
 const BackgroundHead = {
   backgroundImage: 'url('+ BackgroundHeader+')'
-}
+};
 const styles = theme => ({
   root: {
     fontFamily: "Audiowide",
