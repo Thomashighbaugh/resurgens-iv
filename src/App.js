@@ -33,13 +33,15 @@ const theme = createMuiTheme({
     color: "#fff",
     backgroundColor: "#000"
   },
-  backgroundImage: 'url(${/src/Project-Images/31.png})'
+  backgroundImage: 'url(${%PUBLIC_URL%/src/Project-Images/31.png})'
 
 });
 
 const styles = theme => ({
   root: {
-    fontFamily: "Audiowide"
+    fontFamily: "Audiowide",
+    backgroundImage: 'url(${%PUBLIC_URL%/src/Project-Images/31.png})'
+
   },
 
   appBar: {
