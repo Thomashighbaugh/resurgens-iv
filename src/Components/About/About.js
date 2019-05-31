@@ -22,6 +22,7 @@ const styles = theme => ({
     borderStyle: "double",
     borderColor: "#d5d5d5",
     borderWidth: "3px",
+    margin:"10%",
     [theme.breakpoints.down("md")]: {
       display: "flex",
       margin: "2%",
@@ -33,17 +34,21 @@ const styles = theme => ({
     }
   },
   cardAndImage: {
-    display: "flex",
-    justifyContent: "space-around",
+    display: "flex" ,
+    flexDirection:"row",
     alignItems: "center",
     backgroundColor: "#391CAF",
-    padding: "3%",
+    padding: "5%",
     justifySelf:"space-around",
     borderStyle: "double",
     borderColor: "#d5d5d5",
     borderWidth: "3px",
-    margin: "3%",
+    margin: "10%",
     marginBottom: 0,
+    [theme.breakpoints.down("xl")]: {
+      justifyContent: "center",
+      height: "auto"
+    },
     [theme.breakpoints.down("md")]: {
       overflow: "scroll",
       padding: "2%",
@@ -62,7 +67,13 @@ const styles = theme => ({
     backgroundImage: "url(' + http://tlh-resurgens.com/31.png + ')",
     height: "auto",
     background: "inherit",
-    padding: "2%",
+    display:"block",
+    [theme.breakpoints.down("xl")]: {
+      flexDirection:"column",
+      justifyContent: "center",
+      height: "auto",
+      width:"auto"
+    },
     [theme.breakpoints.down("md")]: {
       height: "auto",
       display: "inline",

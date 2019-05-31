@@ -10,8 +10,9 @@ import CardContent from "@material-ui/core/CardContent";
 
 const styles = theme => ({
   card: {
+    margin:"2%",
     maxWidth: 350,
-    padding: 20,
+    padding: 10,
     backgroundColor: "#000",
     color: "#fff",
       borderStyle:"double",

@@ -8,19 +8,43 @@ body {
 
   background-color: #000000;
   background-image: linear-gradient(
-    -38deg,
+    -28deg,
     #000 2%,
-    #8632e6 3%,
-    #000 5%,
+    #391caf 2.5%,
+    #000 3%,
+    #000 11%,
+    #bfe632 11.5%,
+    #000 12%,
+    #000 17%,
+    #391caf 17.5%,
+    #000 18%,
     #000 31%,
-    #391caf 37%,
+    #391caf 31.5%,
+    #000 32%,
+    #000 43%,
+    #391caf 43.5%,
     #000 44%,
+    #000000 51%,
+    #cc08a5 51.5%,
+    #000 52%,
+    #000 68%,
+    #391caf 68.5%,
+    #000 69%,
+    #000 76%,
+    #391caf 76.5%,
+    #000 77%,
     #000 84%,
-    #391caf 86%,
-    #000 89%
+    #391caf 84.5%,
+    #000 85%,
+    #000 91%,
+    #bfe632 91.5%,
+    #000 92%,
+    #000 94%,
+    #391caf 94.5%,
+    #000 95%
   );
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat;
+background-size: cover;
 }
 
 code {
