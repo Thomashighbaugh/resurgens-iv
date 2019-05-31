@@ -80,6 +80,15 @@ class Projects extends Component {
               hostedLink="https://tlh-resurgens-v2.netlify.com/"
               isHosted={true}
             />
+            <Project
+                title="Blog Template 2"
+                subtitle="The second blog post template made in the Electric Tantra style."
+                cardText=" This template includes a thumbnail image for each of the posts it slides through and would work well if the page was intended as a directory to other pages, like the landing page of a blog. When time permits, it will be bundled with several extra pages using that same stylesheet so any potential users are as fully supported as possible."
+                cardImage="https://resurgens-iii.netlify.com/images/Selection_026.png"
+                githubLink="https://github.com/Thomashighbaugh/second-blog-post-template"
+                hostedLink="https://second-blog-template-electric-tantra.netlify.com/"
+                isHosted={true}
+            />
           </Grid>
         </List>
       </Slide>

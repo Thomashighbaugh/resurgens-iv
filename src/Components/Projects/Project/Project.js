@@ -74,6 +74,7 @@ const styles = theme => ({
     borderStyle: "double",
     color: "#fff"
   },
+
   gridItem: {
     [theme.breakpoints.down("xs")]: {
       display: "none"

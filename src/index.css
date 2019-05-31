@@ -68,3 +68,10 @@ code {
   background-repeat: repeat;
   background-size: 30% 30%;
 }
+a{
+  color: #ffffff !important;
+}
+a:hover{
+  color:#391caf;
+  background: #ffffff;
+}

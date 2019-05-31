@@ -43,7 +43,7 @@ const styles = theme => ({
   },
 
   appBar: {
-    height: "6.5em",
+    height: "5.5em",
 
     [theme.breakpoints.down("xs")]: {
       height: "7em",
@@ -82,7 +82,7 @@ class App extends Component {
         <div>
           <AppBar position="static" className={classes.appBar}>
             <Typography
-              component="h2"
+              component="h3"
               variant="h2"
               color="inherit"
               align="center"
