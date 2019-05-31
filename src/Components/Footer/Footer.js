@@ -30,7 +30,15 @@ const styles = theme => ({
   },
   footer: {
     color: "#391CAF",
-    backgroundColor: "#000"
+    backgroundColor: "#000",
+    position:"fixed",
+    height:50,
+    bottom:0,
+    left:0,
+    right:0,
+  },
+  body: {
+    marginBottom:50
   }
 });
 

@@ -10,19 +10,17 @@ import CardContent from "@material-ui/core/CardContent";
 
 const styles = theme => ({
   card: {
-    margin:"2%",
-    maxWidth: 350,
-    padding: 10,
+    height:"30%",
     backgroundColor: "#000",
     color: "#fff",
       borderStyle:"double",
       borderColor:"#d5d5d5",
-      borderWidth:"3px",
+      borderWidth:"5px",
   },
   cardMedia: {
     display: "none",
     color: "#fff",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down("md")]: {
       display: "inline"
     }
   }
@@ -42,11 +40,6 @@ class AboutCard extends Component {
             variant: "h5",
             color: "secondary"
           }}
-        />
-        <CardMedia
-          className={classes.cardMedia}
-          image={image}
-          component="img"
         />
         <CardContent>
           This site was made with React and is the fourth version of my

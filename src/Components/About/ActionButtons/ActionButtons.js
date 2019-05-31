@@ -8,7 +8,9 @@ const styles = () => ({
   paper: {
     display: "flex",
     justifyContent: "space-around",
-      margin:0
+      margin:0,
+      paddingBottom:"5.4%"
+
   }
 });
 

@@ -44,10 +44,10 @@ const styles = theme => ({
 
   appBar: {
     height: "5.5em",
-
+    marginBottom:"0",
     [theme.breakpoints.down("xs")]: {
       height: "7em",
-      marginBottom: "2em"
+      marginBottom: "3em"
     }
   },
   tabsBar: {

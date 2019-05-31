@@ -34,7 +34,15 @@ class Projects extends Component {
               hostedLink="https://electric-tantra-splash-page.netlify.com/"
               isHosted={true}
             />
-
+            <Project
+                title="Electric Tantra Themes"
+                subtitle="A set of GTK3+ themes in the Electric Tantra Style."
+                cardText=" These themes are another demonstration of the Electric Tantra style, but for Linux desktops! These themes are generally dark and muted except for specific neon accents that make the theme easier to use by cuing the user to the selected item or button. Written in the modified CSS of the GTK3 theme system, these themes also provide a basis for the development of additional interfaces and their use is often a proving ground for the style pallet."
+                cardImage="https://resurgens-iii.netlify.com/images/Selection_026.png"
+                githubLink="https://github.com/Thomashighbaugh/second-blog-post-template"
+                hostedLink="https://second-blog-template-electric-tantra.netlify.com/"
+                isHosted={true}
+            />
             <Project
               title="EvoPopDark"
               subtitle="A modification of the EvoPop GTK3+ theme"
@@ -72,15 +80,6 @@ class Projects extends Component {
               isHosted={true}
             />
             <Project
-              title="Resurgens 2"
-              subtitle="The second incarnation of the Resurgens Portfolio."
-              cardText="An earlier example of the then formulating Electric Tantra Design Paradigm, this version of my portfolio was primarily designed for simplicity and functionality."
-              cardImage="https://resurgens-iii.netlify.com/images/resurgens2.png"
-              githubLink="https://github.com/Thomashighbaugh/resurgens-2"
-              hostedLink="https://tlh-resurgens-v2.netlify.com/"
-              isHosted={true}
-            />
-            <Project
                 title="Blog Template 2"
                 subtitle="The second blog post template made in the Electric Tantra style."
                 cardText=" This template includes a thumbnail image for each of the posts it slides through and would work well if the page was intended as a directory to other pages, like the landing page of a blog. When time permits, it will be bundled with several extra pages using that same stylesheet so any potential users are as fully supported as possible."
@@ -89,6 +88,16 @@ class Projects extends Component {
                 hostedLink="https://second-blog-template-electric-tantra.netlify.com/"
                 isHosted={true}
             />
+            <Project
+              title="Resurgens 2"
+              subtitle="The second incarnation of the Resurgens Portfolio."
+              cardText="An earlier example of the then formulating Electric Tantra Design Paradigm, this version of my portfolio was primarily designed for simplicity and functionality."
+              cardImage="https://resurgens-iii.netlify.com/images/resurgens2.png"
+              githubLink="https://github.com/Thomashighbaugh/resurgens-2"
+              hostedLink="https://tlh-resurgens-v2.netlify.com/"
+              isHosted={true}
+            />
+
           </Grid>
         </List>
       </Slide>

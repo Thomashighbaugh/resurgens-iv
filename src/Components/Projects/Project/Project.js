@@ -66,7 +66,8 @@ const styles = theme => ({
   card: {
     maxWidth: 300,
     padding: 10,
-    margin: 16,
+    margin: "5%",
+    marginTop:"10%",
     height: "95%",
     backgroundColor: "#391CAF",
     borderColor: "#d5d5d5",
