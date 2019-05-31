@@ -40,6 +40,8 @@ const theme = createMuiTheme({
 const styles = theme => ({
   root: {
     fontFamily: "Audiowide",
+    margin: "0"
+
 
   },
 
@@ -54,7 +56,7 @@ const styles = theme => ({
   tabsBar: {
     backgroundColor: "#391CAF",
     [theme.breakpoints.down("xs")]: {
-      marginBottom: "5em",
+      marginBottom: "1em",
       backgroundColor: "#391CAF"
     }
   },

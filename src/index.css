@@ -18,7 +18,7 @@ code {
   monospace;
 }
 .bg {
-  background-image: url("http://tlh-resurgens.com/31.png");
+  background-image: linear-gradient(-38deg, #000 2%, #8632e6 3%, #000 5%, #000 31%, #391caf 37%, #000 44%, #000 84%, #391caf 86%, #000 89%);
   height: 80vh;
   background-repeat: repeat;
   background-size: 30% 30%;

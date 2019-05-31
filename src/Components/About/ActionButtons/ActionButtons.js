@@ -7,7 +7,8 @@ import { withStyles } from "@material-ui/core/styles";
 const styles = () => ({
   paper: {
     display: "flex",
-    justifyContent: "space-around"
+    justifyContent: "space-around",
+      margin:0
   }
 });
 

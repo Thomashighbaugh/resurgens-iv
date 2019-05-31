@@ -13,8 +13,9 @@ import { Divider } from "@material-ui/core";
 
 const styles = theme => ({
   root: {
-    height:"100%",
-    display:"border-block",
+    height:"100vh",
+    margin:0,
+    padding:0,
   },
   img: {
     maxWidth: 400,
@@ -22,10 +23,8 @@ const styles = theme => ({
     borderColor: "#d5d5d5",
     borderWidth: "3px",
     [theme.breakpoints.down("md")]: {
-      height: "auto",
-      display: "block",
-      padding:"8%",
-      margin:"10%",
+      display: "flex",
+      margin:"2%",
       justifyContent: "center",
     },
     [theme.breakpoints.down("sm")]: {
@@ -34,23 +33,22 @@ const styles = theme => ({
     }
   },
   cardAndImage: {
-    marginTop: "1em",
-    display: "block",
+    display: "flex",
     justifyContent: "space-around",
     alignItems: "center",
     backgroundColor: "#391CAF",
-    padding: "2em",
+    padding: "3%",
     borderStyle: "double",
     borderColor: "#d5d5d5",
     borderWidth: "3px",
-    marginLeft: "10%",
-    marginRight: "10%",
+    margin: "3%",
+    marginBottom:0,
     [theme.breakpoints.down("md")]: {
-      height: "auto",
-      display: "inline-block",
-      padding:"10%",
-      margin:"10%",
-      justifyContent: "center",
+      overflow:"scroll",
+      padding:"2%",
+      display: "flex",
+      justifyContent:"center",
+      height:"auto",
     },
     [theme.breakpoints.down("sm")]: {
       height: "auto",
@@ -61,18 +59,14 @@ const styles = theme => ({
   },
   encompassingDiv: {
     backgroundImage: "url(' + http://tlh-resurgens.com/31.png + ')",
-    padding: "1em",
-    height: "100vh",
-    display: "flex",
-    flexDirection: "column",
+    height: "auto",
     background: "inherit",
-    justifyContent: "space-around",
+    padding:"2%",
     [theme.breakpoints.down("md")]: {
       height: "auto",
-      display: "inline",
-      padding:"5%",
-      margin:"5%",
-      justifyContent: "center",
+      display:"inline",
+      padding:"2%",
+      margin:"2%",
     },
     [theme.breakpoints.down("sm")]: {
       height: "auto",
