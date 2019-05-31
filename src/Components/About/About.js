@@ -12,18 +12,30 @@ import Slide from "@material-ui/core/Slide";
 import { Divider } from "@material-ui/core";
 
 const styles = theme => ({
+  root: {
+    height:"100%",
+    display:"border-block",
+  },
   img: {
     maxWidth: 400,
     borderStyle: "double",
     borderColor: "#d5d5d5",
     borderWidth: "3px",
+    [theme.breakpoints.down("md")]: {
+      height: "auto",
+      display: "block",
+      padding:"8%",
+      margin:"10%",
+      justifyContent: "center",
+    },
     [theme.breakpoints.down("sm")]: {
-      display: "none"
+      height: "auto",
+      display: "none",
     }
   },
   cardAndImage: {
-    marginTop: "3em",
-    display: "flex",
+    marginTop: "1em",
+    display: "block",
     justifyContent: "space-around",
     alignItems: "center",
     backgroundColor: "#391CAF",
@@ -32,7 +44,20 @@ const styles = theme => ({
     borderColor: "#d5d5d5",
     borderWidth: "3px",
     marginLeft: "10%",
-    marginRight: "10%"
+    marginRight: "10%",
+    [theme.breakpoints.down("md")]: {
+      height: "auto",
+      display: "inline-block",
+      padding:"10%",
+      margin:"10%",
+      justifyContent: "center",
+    },
+    [theme.breakpoints.down("sm")]: {
+      height: "auto",
+      display: "block",
+      padding:"10%",
+      margin:"8%",
+    },
   },
   encompassingDiv: {
     backgroundImage: "url(' + http://tlh-resurgens.com/31.png + ')",
@@ -42,9 +67,19 @@ const styles = theme => ({
     flexDirection: "column",
     background: "inherit",
     justifyContent: "space-around",
+    [theme.breakpoints.down("md")]: {
+      height: "auto",
+      display: "inline",
+      padding:"5%",
+      margin:"5%",
+      justifyContent: "center",
+    },
     [theme.breakpoints.down("sm")]: {
       height: "auto",
-      display: "inline"
+      display: "inline",
+      padding:"5%",
+      marginTop:"2%",
+      justifyContent: "center",
     }
   }
 });
