@@ -13,9 +13,9 @@ import { Divider } from "@material-ui/core";
 
 const styles = theme => ({
   root: {
-    height:"100vh",
-    margin:0,
-    padding:0,
+    height: "100vh",
+    margin: 0,
+    padding: 0
   },
   img: {
     maxWidth: 400,
@@ -24,12 +24,12 @@ const styles = theme => ({
     borderWidth: "3px",
     [theme.breakpoints.down("md")]: {
       display: "flex",
-      margin:"2%",
-      justifyContent: "center",
+      margin: "2%",
+      justifyContent: "center"
     },
     [theme.breakpoints.down("sm")]: {
       height: "auto",
-      display: "none",
+      display: "none"
     }
   },
   cardAndImage: {
@@ -38,42 +38,43 @@ const styles = theme => ({
     alignItems: "center",
     backgroundColor: "#391CAF",
     padding: "3%",
+    justifySelf:"space-around",
     borderStyle: "double",
     borderColor: "#d5d5d5",
     borderWidth: "3px",
     margin: "3%",
-    marginBottom:0,
+    marginBottom: 0,
     [theme.breakpoints.down("md")]: {
-      overflow:"scroll",
-      padding:"2%",
+      overflow: "scroll",
+      padding: "2%",
       display: "flex",
-      justifyContent:"center",
-      height:"auto",
+      justifyContent: "center",
+      height: "auto"
     },
     [theme.breakpoints.down("sm")]: {
       height: "auto",
       display: "block",
-      padding:"10%",
-      margin:"8%",
-    },
+      padding: "10%",
+      margin: "8%"
+    }
   },
   encompassingDiv: {
     backgroundImage: "url(' + http://tlh-resurgens.com/31.png + ')",
     height: "auto",
     background: "inherit",
-    padding:"2%",
+    padding: "2%",
     [theme.breakpoints.down("md")]: {
       height: "auto",
-      display:"inline",
-      padding:"2%",
-      margin:"2%",
+      display: "inline",
+      padding: "2%",
+      margin: "2%"
     },
     [theme.breakpoints.down("sm")]: {
       height: "auto",
       display: "inline",
-      padding:"5%",
-      marginTop:"2%",
-      justifyContent: "center",
+      padding: "5%",
+      marginTop: "2%",
+      justifyContent: "center"
     }
   }
 });

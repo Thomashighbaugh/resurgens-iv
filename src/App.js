@@ -25,7 +25,7 @@ const theme = createMuiTheme({
     },
     secondary: {
       main: "#fff"
-    },
+    }
   },
   typography: {
     useNextVariants: true,
@@ -33,16 +33,13 @@ const theme = createMuiTheme({
     color: "#fff",
     backgroundColor: "#000"
   },
-  backgroundImage: 'url(${%PUBLIC_URL%/src/Project-Images/31.png})'
-
+  backgroundImage: "url(${%PUBLIC_URL%/src/Project-Images/31.png})"
 });
 
 const styles = theme => ({
   root: {
     fontFamily: "Audiowide",
     margin: "0"
-
-
   },
 
   appBar: {

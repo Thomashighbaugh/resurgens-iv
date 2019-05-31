@@ -32,9 +32,10 @@ class AboutCard extends Component {
     const { classes, image } = this.props;
 
     return (
+        <div>
       <Card className={classes.card}>
         <CardHeader
-          title="Thomas Leon Highbaugh"
+          title="About This Site:"
           titleTypographyProps={{
             component: "h5",
             variant: "h5",
@@ -47,13 +48,6 @@ class AboutCard extends Component {
           component="img"
         />
         <CardContent>
-          A born again developer who recently discovered his eye for designs and
-          photography. By merging these skills into web development, the
-          Electric Tantra Design Paradigm has come into its own and is at the
-          heart of this site's design. Currently doing freelance development
-          work but always looking for team to learn and grow with.
-        </CardContent>
-        <CardContent>
           This site was made with React and is the fourth version of my
           portfolio site. This version also uses the latest in the Electric
           Tantra Design Paradigm to style the UI. Like the Material UI that it
@@ -62,6 +56,29 @@ class AboutCard extends Component {
           features custom graphics that are my original work!
         </CardContent>
       </Card>
+        <Card className={classes.card}>
+          <CardHeader
+      title="About TLH:"
+      titleTypographyProps={{
+          component: "h5",
+              variant: "h5",
+              color: "secondary"
+      }}
+      />
+      <CardMedia
+          className={classes.cardMedia}
+          image={image}
+          component="img"
+      />
+      <CardContent>
+      A born again developer who recently discovered his eye for designs and
+      photography. By merging these skills into web development, the
+      Electric Tantra Design Paradigm has come into its own and is at the
+      heart of this site's design. Currently doing freelance development
+      work but always looking for team to learn and grow with.
+  </CardContent>
+  </Card>
+      </div>
     );
   }
 }
