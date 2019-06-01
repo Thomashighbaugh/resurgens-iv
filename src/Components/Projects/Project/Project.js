@@ -76,6 +76,7 @@ const styles = theme => ({
     color: "#fff"
   },
 
+
   gridItem: {
     [theme.breakpoints.down("xs")]: {
       display: "none"
@@ -145,7 +146,7 @@ class Project extends Component {
 
             <DialogContent className={classes.dialogContent}>
               <div>
-                <img className={classes.cardImage} src={cardImage} alt="" />
+                <img className={classes.cardImage} src={cardImage} alt="screenshot" />
                 <Typography component="h4" variant="h4">
                   {title}
                 </Typography>
