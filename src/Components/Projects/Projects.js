@@ -38,9 +38,9 @@ class Projects extends Component {
                 title="Electric Tantra Themes"
                 subtitle="A set of GTK3+ themes in the Electric Tantra Style."
                 cardText=" These themes are another demonstration of the Electric Tantra style, but for Linux desktops! These themes are generally dark and muted except for specific neon accents that make the theme easier to use by cuing the user to the selected item or button. Written in the modified CSS of the GTK3 theme system, these themes also provide a basis for the development of additional interfaces and their use is often a proving ground for the style pallet."
-                cardImage="https://raw.githubusercontent.com/Thomashighbaugh/Electric-Tantra-Themes/master/x.png"
+                cardImage="https://raw.githubusercontent.com/Thomashighbaugh/Electric-Tantra-Themes/master/Durgaye.png"
                 githubLink="https://github.com/Thomashighbaugh/second-blog-post-template"
-                hostedLink=" "
+                hostedLink=""
                 isHosted={false}
             />
             <Project
