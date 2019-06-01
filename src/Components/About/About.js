@@ -33,8 +33,8 @@ const styles = theme => ({
     }
   },
   cardAndImage: {
-    display: "flex" ,
-    flexDirection:"row",
+    display: "flex",
+    flexDirection: "row",
     alignItems: "center",
     backgroundColor: "#391CAF",
     padding: "1%",
@@ -45,7 +45,7 @@ const styles = theme => ({
     marginBottom: 0,
     [theme.breakpoints.down("xl")]: {
       justifyContent: "center",
-      height: "auto",
+      height: "auto"
     },
     [theme.breakpoints.down("md")]: {
       overflow: "scroll",
@@ -64,14 +64,14 @@ const styles = theme => ({
   encompassingDiv: {
     backgroundImage: "url(' + http://tlh-resurgens.com/31.png + ')",
     background: "inherit",
-    display:"block",
+    display: "block",
     [theme.breakpoints.down("xl")]: {
-      flexDirection:"column",
+      flexDirection: "column",
       justifyContent: "center",
       height: "auto",
-      width:"auto",
+      width: "auto",
       marginTop: 0,
-      paddingTop:0,
+      paddingTop: 0
     },
     [theme.breakpoints.down("md")]: {
       height: "auto",
