@@ -39,6 +39,10 @@ class Skills extends Component {
               cardImage="https://cdn-images-1.medium.com/max/1600/1*BFV8Gwt5BILa-xv04IK2ng.png"
             />
             <Skill
+                title="Electron"
+                cardImage="https://www.wired.com/wp-content/uploads/2016/05/javascript-electron-logo-s.jpg"
+            />
+            <Skill
               title="Redux"
               cardImage="https://cdn-images-1.medium.com/max/1200/0*U2DmhXYumRyXH6X1.png"
             />
