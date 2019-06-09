@@ -39,17 +39,18 @@ class Skills extends Component {
               cardImage="https://cdn-images-1.medium.com/max/1600/1*BFV8Gwt5BILa-xv04IK2ng.png"
             />
             <Skill
-                title="Electron"
-                cardImage="https://www.wired.com/wp-content/uploads/2016/05/javascript-electron-logo-s.jpg"
+              title="JSX"
+              cardImage="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.rickybruner.com%2Fimg%2Fresumelogos%2Fjsx.png&f=1"
+            />
+            <Skill
+              title="Electron"
+              cardImage="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/001/123/thumb/electronlogo.png"
             />
             <Skill
               title="Redux"
               cardImage="https://cdn-images-1.medium.com/max/1200/0*U2DmhXYumRyXH6X1.png"
             />
-            <Skill
-              title="JSX"
-              cardImage="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.rickybruner.com%2Fimg%2Fresumelogos%2Fjsx.png&f=1"
-            />
+
             <Skill
               title="Python 2&3"
               cardImage="https://www.python.org/static/opengraph-icon-200x200.png"

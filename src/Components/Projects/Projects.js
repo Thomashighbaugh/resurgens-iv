@@ -24,7 +24,15 @@ class Projects extends Component {
               hostedLink="https://resurgens-iii.netlify.com/"
               isHosted={true}
             />
-
+            <Project
+              title="Opitx"
+              subtitle="Minimal Markdown Editor"
+              cardText="A Markdown editor designed to put the user in control of their own files, built using React and Electron. A response to dissatisfaction with the available Markdown editors for Linux. Available as a DEB package, RPM package and AppImage."
+              cardImage="https://raw.githubusercontent.com/Thomashighbaugh/Opitx/master/Opitx.png"
+              githubLink="https://github.com/Thomashighbaugh/Opitx"
+              hostedLink=""
+              isHosted={false}
+            />
             <Project
               title="Splash Page"
               subtitle="My Custom Homepage"
@@ -35,13 +43,13 @@ class Projects extends Component {
               isHosted={true}
             />
             <Project
-                title="Electric Tantra Themes"
-                subtitle="A set of GTK3+ themes in the Electric Tantra Style."
-                cardText=" These themes are another demonstration of the Electric Tantra style, but for Linux desktops! These themes are generally dark and muted except for specific neon accents that make the theme easier to use by cuing the user to the selected item or button. Written in the modified CSS of the GTK3 theme system, these themes also provide a basis for the development of additional interfaces and their use is often a proving ground for the style pallet."
-                cardImage="https://raw.githubusercontent.com/Thomashighbaugh/Electric-Tantra-Themes/master/Durgaye.png"
-                githubLink="https://github.com/Thomashighbaugh/second-blog-post-template"
-                hostedLink="https://electric-tantra-themes.netlify.com"
-                isHosted={true}
+              title="Electric Tantra Themes"
+              subtitle="A set of GTK3+ themes in the Electric Tantra Style."
+              cardText=" These themes are another demonstration of the Electric Tantra style, but for Linux desktops! Written in the modified CSS of the GTK3 theme system, these themes also provide a basis for the development of additional interfaces and their use is often a proving ground for the style pallet."
+              cardImage="https://raw.githubusercontent.com/Thomashighbaugh/Electric-Tantra-Themes/master/Images/Lingam.png"
+              githubLink="https://github.com/Thomashighbaugh/second-blog-post-template"
+              hostedLink="https://electric-tantra-themes.netlify.com"
+              isHosted={true}
             />
             <Project
               title="EvoPopDark"
@@ -80,13 +88,13 @@ class Projects extends Component {
               isHosted={true}
             />
             <Project
-                title="Blog Template 2"
-                subtitle="The second blog post template made in the Electric Tantra style."
-                cardText=" This template includes a thumbnail image for each of the posts it slides through and would work well if the page was intended as a directory to other pages, like the landing page of a blog. When time permits, it will be bundled with several extra pages using that same stylesheet so any potential users are as fully supported as possible."
-                cardImage="https://resurgens-iii.netlify.com/images/Selection_026.png"
-                githubLink="https://github.com/Thomashighbaugh/second-blog-post-template"
-                hostedLink="https://second-blog-template-electric-tantra.netlify.com/"
-                isHosted={true}
+              title="Blog Template 2"
+              subtitle="The second blog post template made in the Electric Tantra style."
+              cardText=" This template includes a thumbnail image for each of the posts it slides through and would work well if the page was intended as a directory to other pages, like the landing page of a blog. When time permits, it will be bundled with several extra pages using that same stylesheet so any potential users are as fully supported as possible."
+              cardImage="https://resurgens-iii.netlify.com/images/Selection_026.png"
+              githubLink="https://github.com/Thomashighbaugh/second-blog-post-template"
+              hostedLink="https://second-blog-template-electric-tantra.netlify.com/"
+              isHosted={true}
             />
             <Project
               title="Resurgens 2"
@@ -97,7 +105,6 @@ class Projects extends Component {
               hostedLink="https://tlh-resurgens-v2.netlify.com/"
               isHosted={true}
             />
-
           </Grid>
         </List>
       </Slide>
